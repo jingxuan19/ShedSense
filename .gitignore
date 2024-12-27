@@ -1,0 +1,8 @@
+# virtual environment
+venv/
+
+# testing
+tests/
+
+# data
+data/
