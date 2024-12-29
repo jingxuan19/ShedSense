@@ -1,0 +1,12 @@
+connect implementation with Coral Accelerator
+Region of interest implementation
+Line of interest implementation
+Capacity checking
+anomaly detection (difference in frame)
+    - human detection
+----------------------------
+Multi-sensor
+Different accelerator
+----------------------------
+Perhaps interesting way to show sparseness of usage of bike shed is to plot change in frames agaisnt time (adjusted for light levels (grayscale?))
+
