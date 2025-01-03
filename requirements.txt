@@ -136,8 +136,6 @@ ssh-import-id==5.10
 sympy==1.13.1
 tensorboard==2.18.0
 tensorboard-data-server==0.7.2
-tensorflow==2.18.0
-tensorflow-aarch64==2.16.1
 tensorflow-io-gcs-filesystem==0.37.1
 termcolor==2.5.0
 tflite-runtime==2.13.0
