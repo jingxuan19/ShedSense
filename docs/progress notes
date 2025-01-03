@@ -5,3 +5,9 @@ https://datasheets.raspberrypi.com/camera/picamera2-manual.pdf
 
 28/12
 https://arxiv.org/pdf/2405.14458
+
+3/1
+Trying to get the pi to stream to my laptop, easier debugging when doing live testing.
+X11 Forwarding works
+Added option to switch between CPU and TPU
+trying to solve preprocessing problem (not a priority)
