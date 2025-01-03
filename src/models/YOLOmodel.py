@@ -5,9 +5,9 @@ import datetime
 class YOLOmodel:
     def __init__(self, is_cpu: bool):
         if is_cpu:
-            self.model = YOLO("/home/shedsense1/ShedSense/src/roi/detection/yolov10n.pt", task="detect")
+            self.model = YOLO("/home/shedsense1/ShedSense/src/models/yolov10n.pt", task="detect")
         else:
-            self.model = YOLO("/home/shedsense1/ShedSense/src/roi/detection/yolov10n_saved_model/yolov10n_float32.tflite", task="detect")
+            self.model = YOLO("/home/shedsense1/ShedSense/src/models/yolov10n_saved_model/yolov10n_float32.tflite", task="detect")
         
         logging.basicConfig(filename=f"/home/shedsense1/ShedSense/src/roi/logs/{datetime.date.today()}_YOLOlogging", level=logging.INFO)        
         
