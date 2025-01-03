@@ -1,5 +1,4 @@
 from picamera2 import Picamera2
-import cv2
 import time
 import argparse
 from roi.detection.roi_detection import roi_detection
