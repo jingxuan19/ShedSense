@@ -9,7 +9,7 @@ def roi_detection(is_cpu: bool, camera):
         frame = camera.capture_array("main")       
         result = Yolomodel.detect(frame)   
         
-        cv2.imshow("Camera", result[0].plot())
+        cv2.imshow("ROI implementation", result[0].plot())
 
         detected_objects = Yolomodel.separate_objects(result) # boxes, score, class_id, class_name
         bikes = 0
@@ -22,7 +22,6 @@ def roi_detection(is_cpu: bool, camera):
 
         print(f"number of bikes: {bikes}")
         print(f"number of people: {people}")
-        
         
         if cv2.waitKey(1) == ord('q'):
             break
