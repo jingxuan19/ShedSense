@@ -5,7 +5,7 @@ venv/
 tests/
 
 # data
-data/
+
 
 # pycache
 **/__pycache__/
