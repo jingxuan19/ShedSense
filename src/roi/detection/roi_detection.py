@@ -6,7 +6,8 @@ def roi_detection(is_cpu: bool, camera):
     Yolomodel = YOLOmodel(is_cpu)
 
     while True:
-        frame = camera.capture_array("main")       
+        # frame = camera.capture_array("main")       
+        frame = cv2.imload(r"C:\Users\tanji\OneDrive\Cambridge\2\Project\ShedSense\data\photo_2025-01-23_09-21-25.jpg")
         result = Yolomodel.detect(frame)   
         
         cv2.imshow("ROI implementation", result[0].plot())
@@ -25,3 +26,5 @@ def roi_detection(is_cpu: bool, camera):
         
         if cv2.waitKey(1) == ord('q'):
             break
+        
+roi_detection(False, None)
