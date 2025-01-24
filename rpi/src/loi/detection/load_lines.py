@@ -7,7 +7,7 @@ def load_lines(location):
                   "up": Direction.UP,
                   "down": Direction.DOWN}
     
-    with open("/home/shedsense1/ShedSense/config/lines.yaml", "r") as f:
+    with open("/home/shedsense1/ShedSense/rpi/config/lines.yaml", "r") as f:
         line_config = yaml.safe_load(f)
         
     borders = []
