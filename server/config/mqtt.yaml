@@ -1,0 +1,6 @@
+broker: test.mosquitto.org
+port: 1883
+
+topic: "shedsense/livefeed"
+
+# payload: {img, timestamp}
