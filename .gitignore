@@ -1,11 +1,2 @@
-# virtual environment
-venv/
-
-# testing
-tests/
-
-# data
-
-
 # pycache
 **/__pycache__/

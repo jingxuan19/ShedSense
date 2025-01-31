@@ -1,7 +1,7 @@
 # (x,y)
 test_1:
   line_1:
-    direction: left
+    direction: right
     points:
-    - (120, 0)
-    - (120, 720)
+    - (240, 0)
+    - (240, 720)

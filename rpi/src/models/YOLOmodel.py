@@ -10,7 +10,7 @@ class YOLOmodel:
             self.model = YOLO("/home/shedsense1/ShedSense/rpi/src/models/yolov10n_saved_model/yolov10n_float32.tflite", task="detect")
         
         # TODO: don't hardcode logging
-        logging.basicConfig(filename=f"/home/shedsense1/ShedSense/rpi/logs/model/{datetime.date.today()}_YOLOlogging", level=logging.INFO)        
+        logging.basicConfig(filename=f"/home/shedsense1/ShedSense/rpi/logs/model/{datetime.date.today()}_YOLOlogging_loi", level=logging.INFO)        
         
         self.logger = logging.getLogger(__name__)
 

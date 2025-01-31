@@ -2,10 +2,13 @@ from picamera2 import Picamera2
 import cv2
 import time
 import argparse
+import json
 from loi.detection.loi_detection import loi_detection
 from models.YOLOmodel import YOLOmodel
 from loi.detection.load_lines import load_lines
 from mqtt.mqtt_pi import MQTTPiClient
+from PIL import Image
+import io
 
 CAMERA_ID = "test_1"
 
@@ -31,12 +34,11 @@ def main(is_cpu):
     
     while True:
         annotated_frame = loi_detection(camera, borders, Yolomodel)
-        
-        payload = bytearray(annotated_frame)                
-        Pi_MQTT_client.publish("shedsense/frame", payload)
-        
-        if cv2.waitKey(1) == ord('q'):
-            break
+
+        _, payload = cv2.imencode('.jpeg', annotated_frame)
+        # print(payload.dtype, payload.size)
+
+        Pi_MQTT_client.publish("shedsense/frame", payload.tobytes())
     
     Pi_MQTT_client.disconnect()
     
