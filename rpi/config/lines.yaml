@@ -3,5 +3,5 @@ test_1:
   line_1:
     direction: right
     points:
-    - (240, 0)
-    - (240, 720)
+    - [480, 0]
+    - [480, 720]

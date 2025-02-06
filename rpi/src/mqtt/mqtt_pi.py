@@ -3,12 +3,13 @@ import yaml
 import logging
 import datetime
 
-class MQTTPiClient:
-    def __init__(self, client_id):
-        logging.basicConfig(filename=f"/home/shedsense1/ShedSense/rpi/logs/mqtt/{datetime.date.today()}_mqttlogging", level=logging.INFO)        
+class MQTTPiClient:    
+    def __init__(self):       
+        self.logger = logging.getLogger("MQTT")
+        self.handler = logging.FileHandler(f"/home/shedsense1/ShedSense/rpi/logs/mqtt/{datetime.date.today()}_mqttlogging")
         
-        self.logger = logging.getLogger(__name__)
-
+        self.logger.setLevel(logging.INFO)
+        self.logger.addHandler(self.handler)
         
         with open("/home/shedsense1/ShedSense/rpi/config/mqtt.yaml", "r") as f:
             config = yaml.safe_load(f)

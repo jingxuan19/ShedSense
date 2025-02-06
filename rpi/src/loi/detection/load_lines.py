@@ -13,8 +13,8 @@ def load_lines(location):
     borders = []
     for line in line_config[location]:
         roi_direction = directions[line_config[location][line]["direction"]]
-        pt1 = eval(line_config[location][line]["points"][0])
-        pt2 = eval(line_config[location][line]["points"][1])
+        pt1 = line_config[location][line]["points"][0]
+        pt2 = line_config[location][line]["points"][1]
         
         borders.append(Border(pt1, pt2, roi_direction))
     

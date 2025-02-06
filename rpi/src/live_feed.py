@@ -2,17 +2,24 @@ from picamera2 import Picamera2
 import cv2
 import time
 import argparse
+import logging
 import json
 from loi.detection.loi_detection import loi_detection
 from models.YOLOmodel import YOLOmodel
 from loi.detection.load_lines import load_lines
 from mqtt.mqtt_pi import MQTTPiClient
-from PIL import Image
-import io
+import datetime
+from utils.sort import *
 
 CAMERA_ID = "test_1"
 
-def main(is_cpu):
+logger = logging.getLogger("Live feed")
+handler = logging.FileHandler(f"/home/shedsense1/ShedSense/rpi/logs/live_feed/{datetime.date.today()}_livefeed")
+       
+logger.setLevel(logging.INFO)
+logger.addHandler(handler)
+
+def main(is_cpu):   
     # Default to LOI implementation  
     camera = Picamera2()
     cam_config = camera.create_video_configuration(main={"format": 'RGB888'})
@@ -22,7 +29,7 @@ def main(is_cpu):
     time.sleep(1)
     
     #MQTT setup
-    Pi_MQTT_client = MQTTPiClient("shedsense_node")
+    Pi_MQTT_client = MQTTPiClient()
     
     # Everything concerning the region of interest (shed) can be calculated beforehand
     borders = load_lines(CAMERA_ID)
@@ -32,13 +39,25 @@ def main(is_cpu):
     # Yolomodel
     Yolomodel = YOLOmodel(is_cpu)
     
+    person_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0.3)
+    bike_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0.3)
+    
     while True:
-        annotated_frame = loi_detection(camera, borders, Yolomodel)
+        start = time.time()
+        annotated_frame = loi_detection(camera, borders, Yolomodel, person_tracker, bike_tracker)
+        
+        for line in borders:
+        # line coords must be in (x,y)
+            cv2.line(annotated_frame, line.pt1, line.pt2, color=(0, 255, 0), thickness=5)
 
         _, payload = cv2.imencode('.jpeg', annotated_frame)
         # print(payload.dtype, payload.size)
 
         Pi_MQTT_client.publish("shedsense/frame", payload.tobytes())
+        
+        end = time.time()
+        logger.info(f"Time taken to process frame: {end-start}s")
+        
     
     Pi_MQTT_client.disconnect()
     

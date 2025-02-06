@@ -1,45 +1,108 @@
 import cv2
 import numpy as np
-from models.YOLOmodel import YOLOmodel
-import yaml
-from loi.detection.masking import masking
-from loi.detection.load_lines import load_lines
+import logging
+import datetime
+from loi.detection.temporal_tracking.tracking_history import Tracking_history
+from loi.detection.Border import Flow_status
+# import yaml
+# from loi.detection.masking import masking
+# from loi.detection.load_lines import load_lines
+# import math
+         
+logger = logging.getLogger("LOI detection")
+handler = logging.FileHandler(f"/home/shedsense1/ShedSense/rpi/logs/detection/{datetime.date.today()}_loidetection")
+       
+logger.setLevel(logging.INFO)
+logger.addHandler(handler)
 
-def loi_detection(camera, borders, model):   
+def loi_detection(camera, borders, model, person_tracker, bike_tracker):   
     frame = camera.capture_array("main")   
     # print(frame.shape)
-    
-    for line in borders:
-        # line coords must be in (x,y)
-        cv2.line(frame, line.pt1, line.pt2, color=(0, 255, 0), thickness=5)
             
-    result = model.detect(frame)   
-    # detected_objects = model.separate_objects(result) # boxes, score, c_id, c_name
+    result = model.detect(frame)
+    detected_objects = model.separate_objects(result) # box, score, class_id, class_name
+    
+    person_detections = []
+    bike_detections = []
+    for det_obj in detected_objects:       
+        if det_obj['class_id'] == 0:
+            person_detections.append(det_obj['box'].numpy().tolist()+[det_obj['score'].numpy().item()])
+        elif det_obj['class_id'] == 1:
+            bike_detections.append(det_obj['box'].numpy().tolist()+[det_obj['score'].numpy().item()])
+    
+    if not person_detections:
+        person_detections = np.empty((0,5))
+    else:
+        person_detections = np.array(person_detections)
+    
+    if not bike_detections:
+        bike_detections = np.empty((0,5))
+    else:
+        bike_detections = np.array(bike_detections)
 
-    # for detected in detected_objects:
-    #     # filter bikes and people
-    #     if detected.class_id not in (0,1):
-    #         continue
-        
-    #     object_mask = np.zeros(window_size)
-    #     cv2.rectangle(object_mask, detected.box[0], detected.box[1], 255, -1)
-        
-    #     # if np.sum(cv2.bitwise_and(, object_mask)) != 0:
-    #     #     # there's an overlap between the object bounding box and the roi for yolo
-    #     #     #Lucas-Kanade
-    #     #     pass   
-    
-    # cv2.imshow("LOI implementation", result[0].plot())
-    
-    return result[0].plot()
+    person_predictions = person_tracker.update(person_detections)
+    bike_predictions = bike_tracker.update(bike_detections)
 
+    # frame = result[0].plot()
+    person_measured = {}
+    bike_measured = {}
     
-    # if len(detected_objects[2]):
-    #     class_count = torch.bincount(detected_objects[2])
-    #     print(f"number of bikes: {class_count[1]}")
-    #     print(f"number of people: {class_count[0]}")
-    # else:
-    #     print(f"number of bikes: 0")
-    #     print(f"number of people: 0")
+    for p in person_predictions:
+        c_x = p[0]+(p[2] - p[0])/2
+        c_y = p[1]+(p[3] - p[1])/2
+        person_measured[p[-1]*2] = np.array([c_x, c_y]) # person_id will be even wrt the Tracking history
+        
+        int_p = p.astype(np.int64)
+        frame = cv2.rectangle(frame, (int_p[0], int_p[1]), (int_p[2], int_p[3]), (36, 255, 12), 1)
+        cv2.putText(frame, f"person id:{str(int_p[-1])}", (int_p[0], int_p[1]+10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
+        
+    for p in bike_predictions:
+        c_x = p[0]+(p[2] - p[0])/2
+        c_y = p[1]+(p[3] - p[1])/2
+        bike_measured[p[-1]*2+1] = np.array([c_x, c_y]) # bike_id will be odd wrt the Tracking history
+                        
+        int_p = p.astype(np.int64)
+        frame = cv2.rectangle(frame, (int_p[0], int_p[1]), (int_p[2], int_p[3]), (36, 255, 12), 1)
+        cv2.putText(frame, f"bike id:{str(int_p[-1])}", (int_p[0], int_p[1]+10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)  
+               
+    for id in Tracking_history.history:
+        if id in person_measured:            
+            for b in borders:
+                flow_status = b.intersect(np.concatenate((Tracking_history.history[id]["center"], person_measured[id])))
+                if flow_status is Flow_status.IN:
+                    logger.info("Detected person entering bike shed")
+                    Tracking_history.person_in += 1
+                elif flow_status is Flow_status.OUT:
+                    logger.info("Detected person leaving bike shed")
+                    if Tracking_history.person_in > 0:
+                        Tracking_history.person_in -= 1
+                    else:
+                        logger.warning("Detected negative person occupancy")
+                else:
+                    cv2.line(frame, Tracking_history.history[id]["center"].astype(np.int64), person_measured[id].astype(np.int64), (255, 0, 0), 2)
+                    logger.info("Detected person, but did not enter or leave")
+        
+        elif id in bike_measured:            
+            for b in borders:
+                flow_status = b.intersect(np.concatenate((Tracking_history.history[id]["center"], bike_measured[id])))
+                if flow_status is Flow_status.IN:
+                    logger.info(f"Detected bike entering bike shed")
+                    Tracking_history.bike_in += 1
+                elif flow_status is Flow_status.OUT:
+                    logger.info(f"Detected bike leaving bike shed")
+                    if Tracking_history.bike_in > 0:
+                        Tracking_history.bike_in -= 1
+                    else:
+                        logger.warning(f"Detected negative bike occupancy")     
+                else:
+                    cv2.line(frame, Tracking_history.history[id]["center"].astype(np.int64), bike_measured[id].astype(np.int64), (255, 0, 0), 2)
+                    logger.info("Detected bike, but did not enter or leave")         
+
+    Tracking_history.update(person_measured)
+    Tracking_history.update(bike_measured)
+    
+    cv2.putText(frame, f"person: {Tracking_history.person_in}", (0,50), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 3)  
+        
+    return frame
     
     

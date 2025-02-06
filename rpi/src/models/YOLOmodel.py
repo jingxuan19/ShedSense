@@ -9,13 +9,14 @@ class YOLOmodel:
         else:
             self.model = YOLO("/home/shedsense1/ShedSense/rpi/src/models/yolov10n_saved_model/yolov10n_float32.tflite", task="detect")
         
-        # TODO: don't hardcode logging
-        logging.basicConfig(filename=f"/home/shedsense1/ShedSense/rpi/logs/model/{datetime.date.today()}_YOLOlogging_loi", level=logging.INFO)        
+        self.logger = logging.getLogger("YOLO model")
+        self.handler = logging.FileHandler(f"/home/shedsense1/ShedSense/rpi/logs/model/{datetime.date.today()}_YOLO")
         
-        self.logger = logging.getLogger(__name__)
+        self.logger.setLevel(logging.INFO)
+        self.logger.addHandler(self.handler)        
 
     def detect(self, frame):
-        result = self.model.predict(frame)
+        result = self.model.predict(frame, classes=[0,1])
         return result
     
     def separate_objects(self, result):
@@ -26,11 +27,9 @@ class YOLOmodel:
 
         detected_objects = []
         for box, score, c_id, c_name in zip(boxes, scores, class_ids, class_names):
-            # TODO: SOMETHING WRONG
-            box_points = [box_points[:2], box_points[2:]]
             detected_objects.append({
-                "box_points": box_points,
-                "confidence": score,
+                "box": box,
+                "score": score,
                 "class_id": c_id,
                 "class_name": c_name
             })    
