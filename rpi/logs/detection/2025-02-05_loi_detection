@@ -1,0 +1,205 @@
+INFO:picamera2.picamera2:Initialization successful.
+INFO:picamera2.picamera2:Camera now open.
+INFO:picamera2.picamera2:Camera configuration has been adjusted!
+INFO:picamera2.picamera2:Configuration successful!
+INFO:picamera2.picamera2:Camera started
+INFO:models.YOLOmodel:22:40:14.094945 Detected object person with confidence 0.938069224357605 at tensor([  2.9186,   4.3009, 976.1008, 710.3513])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:14.120574
+INFO:models.YOLOmodel:22:40:15.252636 Detected object person with confidence 0.9267077445983887 at tensor([  6.2357,   4.1354, 981.2922, 709.6216])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:15.307169
+INFO:models.YOLOmodel:22:40:16.457511 Detected object person with confidence 0.9327896237373352 at tensor([  8.0500,   3.7434, 982.8215, 709.3390])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:16.495228
+INFO:models.YOLOmodel:22:40:17.738903 Detected object person with confidence 0.9465964436531067 at tensor([  2.8099,   3.8401, 978.8234, 710.0326])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:17.761785
+INFO:models.YOLOmodel:22:40:18.917367 Detected object person with confidence 0.9351085424423218 at tensor([  2.5379,   3.9165, 977.8148, 710.3701])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:18.950516
+INFO:models.YOLOmodel:22:40:20.108088 Detected object person with confidence 0.9361411929130554 at tensor([  2.7559,   3.8235, 978.1584, 710.7148])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:20.132721
+INFO:models.YOLOmodel:22:40:21.259006 Detected object person with confidence 0.9438550472259521 at tensor([  2.9779,   3.9265, 976.7402, 710.4601])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:21.281625
+INFO:models.YOLOmodel:22:40:22.398115 Detected object person with confidence 0.9345555901527405 at tensor([  2.7671,   4.0776, 977.8409, 710.4934])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:22.420685
+INFO:models.YOLOmodel:22:40:23.538977 Detected object person with confidence 0.9357118010520935 at tensor([  2.6138,   3.9238, 976.7724, 710.6940])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:23.561558
+INFO:models.YOLOmodel:22:40:24.680772 Detected object person with confidence 0.9383703470230103 at tensor([  2.8820,   3.8222, 976.7508, 710.8367])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:24.702956
+INFO:models.YOLOmodel:22:40:25.851582 Detected object person with confidence 0.9455735683441162 at tensor([  2.5179,   4.0017, 976.8576, 710.8311])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:25.874799
+INFO:models.YOLOmodel:22:40:27.020115 Detected object person with confidence 0.9451999068260193 at tensor([  2.7179,   3.9746, 977.2187, 711.2529])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:27.042258
+INFO:models.YOLOmodel:22:40:28.172117 Detected object person with confidence 0.7427924871444702 at tensor([  3.2098,   4.3872, 981.5162, 708.9613])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:28.195405
+INFO:models.YOLOmodel:22:40:29.331517 Detected object person with confidence 0.37091588973999023 at tensor([  1.4861,   5.1242, 734.9024, 710.4540])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:29.355971
+INFO:models.YOLOmodel:22:40:30.488138 Detected object person with confidence 0.34254956245422363 at tensor([  1.5783,   4.1667, 605.9227, 675.0406])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:30.510866
+INFO:models.YOLOmodel:22:40:31.632245 Detected object person with confidence 0.3421648442745209 at tensor([  2.2787,   3.0691, 620.9769, 688.4740])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:31.655720
+INFO:models.YOLOmodel:22:40:32.789285 Detected object person with confidence 0.3975696265697479 at tensor([  2.2634,   3.2098, 634.7797, 691.0056])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:32.814145
+INFO:models.YOLOmodel:22:40:33.946982 Detected object person with confidence 0.6574915647506714 at tensor([  3.8351,   4.2706, 849.1916, 709.9606])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:33.969893
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:35.125735
+INFO:models.YOLOmodel:22:40:36.263993 Detected object person with confidence 0.49845293164253235 at tensor([  4.3413,   2.3635, 881.7441, 709.1577])
+INFO:models.YOLOmodel:22:40:36.266017 Detected object person with confidence 0.4696044921875 at tensor([  1.0567,   2.5734, 446.3149, 710.4318])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:36.289405
+INFO:models.YOLOmodel:22:40:37.417317 Detected object person with confidence 0.6059572696685791 at tensor([4.5515e-01, 7.6453e+00, 5.6698e+02, 6.9616e+02])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:37.441067
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:38.584375
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:39.747798
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:40.911147
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:42.068696
+INFO:models.YOLOmodel:22:40:43.186153 Detected object person with confidence 0.8720067143440247 at tensor([  2.3114,   3.7624, 895.1052, 709.8058])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:43.209623
+INFO:models.YOLOmodel:22:40:44.356768 Detected object person with confidence 0.8107799887657166 at tensor([  3.8153,   3.3417, 897.2195, 709.6863])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:44.381645
+INFO:models.YOLOmodel:22:40:45.505714 Detected object person with confidence 0.8243870735168457 at tensor([  4.3699,   2.8745, 896.5280, 709.2766])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:45.530901
+INFO:models.YOLOmodel:22:40:46.661878 Detected object person with confidence 0.8199979066848755 at tensor([  4.1304,   3.0026, 896.8617, 709.9843])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:46.687396
+INFO:models.YOLOmodel:22:40:47.822371 Detected object person with confidence 0.7461403608322144 at tensor([  5.1162,   2.9498, 897.0822, 709.4031])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:47.846224
+INFO:models.YOLOmodel:22:40:49.001552 Detected object person with confidence 0.8255999088287354 at tensor([  3.1853,   3.1646, 896.8414, 708.7843])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:49.025289
+INFO:models.YOLOmodel:22:40:50.153447 Detected object person with confidence 0.7864986062049866 at tensor([  3.5160,   3.4613, 896.7105, 709.7069])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:50.178001
+INFO:models.YOLOmodel:22:40:51.301409 Detected object person with confidence 0.8299916982650757 at tensor([  2.8562,   3.3519, 896.1788, 709.4189])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:51.328120
+INFO:models.YOLOmodel:22:40:52.472637 Detected object person with confidence 0.8382713198661804 at tensor([  2.3353,   3.0043, 895.8096, 708.9738])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:52.497024
+INFO:models.YOLOmodel:22:40:53.623837 Detected object person with confidence 0.8205958604812622 at tensor([  2.9691,   3.5865, 895.6235, 709.2524])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:53.648676
+INFO:models.YOLOmodel:22:40:54.779316 Detected object person with confidence 0.806633472442627 at tensor([  2.1724,   3.2064, 895.6876, 709.5131])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:54.810516
+INFO:models.YOLOmodel:22:40:55.950654 Detected object person with confidence 0.8294163942337036 at tensor([  1.1766,   3.6782, 895.5045, 709.0819])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:55.986753
+INFO:models.YOLOmodel:22:40:57.111905 Detected object person with confidence 0.5046488046646118 at tensor([101.2680,   1.6500, 894.4221, 701.4617])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:57.142829
+INFO:models.YOLOmodel:22:40:58.263458 Detected object person with confidence 0.5792176723480225 at tensor([135.6950,   1.5042, 894.4339, 700.7765])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:58.288231
+INFO:models.YOLOmodel:22:40:59.419755 Detected object person with confidence 0.6697962284088135 at tensor([ 24.6921,   1.6467, 894.1901, 704.9041])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:40:59.444513
+INFO:models.YOLOmodel:22:41:00.571678 Detected object person with confidence 0.6628166437149048 at tensor([ 19.3719,   1.6861, 894.2719, 705.6761])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:41:00.595380
+INFO:models.YOLOmodel:22:41:01.715790 Detected object person with confidence 0.6717953681945801 at tensor([ 19.8304,   1.4667, 893.8748, 704.7073])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:41:01.739179
+INFO:models.YOLOmodel:22:41:02.856111 Detected object person with confidence 0.7377893924713135 at tensor([ 43.5282,   1.8143, 893.8282, 704.8689])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:41:02.879008
+INFO:models.YOLOmodel:22:41:04.075980 Detected object person with confidence 0.7841240763664246 at tensor([ 79.4097,   1.5696, 893.5802, 700.1706])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:41:04.100689
+INFO:models.YOLOmodel:22:41:05.315709 Detected object person with confidence 0.7881609201431274 at tensor([ 24.8154,   1.1657, 893.1676, 703.5394])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:41:05.344475
+INFO:models.YOLOmodel:22:41:06.588446 Detected object person with confidence 0.7490308284759521 at tensor([ 20.9286,   1.1245, 892.8714, 702.6326])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:41:06.640580
+INFO:models.YOLOmodel:22:41:07.896028 Detected object person with confidence 0.7546054124832153 at tensor([  2.2703,   1.5613, 892.5872, 704.9634])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:41:07.927235
+INFO:models.YOLOmodel:22:41:09.095038 Detected object person with confidence 0.7695736885070801 at tensor([ 12.8392,   1.8011, 892.3410, 702.6421])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:41:09.130854
+INFO:models.YOLOmodel:22:41:10.267149 Detected object person with confidence 0.7112569212913513 at tensor([  7.4569,   0.9980, 891.6266, 705.9319])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:41:10.290535
+INFO:models.YOLOmodel:22:41:11.442467 Detected object person with confidence 0.4068484902381897 at tensor([ 81.6141,   4.6101, 895.9405, 708.8809])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:41:11.470289
+INFO:models.YOLOmodel:22:41:12.727448 Detected object person with confidence 0.48139432072639465 at tensor([  0.0000,   4.7680, 566.7360, 684.2778])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:41:12.783825
+INFO:models.YOLOmodel:22:41:14.052195 Detected object person with confidence 0.5168454051017761 at tensor([  4.9975, 222.0016, 985.3745, 711.5606])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:41:14.119838
+INFO:models.YOLOmodel:22:41:15.436905 Detected object person with confidence 0.584436297416687 at tensor([  1.6123,   3.8976, 603.0183, 713.0374])
+INFO:models.YOLOmodel:22:41:15.439036 Detected object person with confidence 0.29594817757606506 at tensor([  6.8563, 241.3309, 974.8929, 709.8450])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:41:15.516629
+INFO:models.YOLOmodel:22:41:16.776793 Detected object person with confidence 0.4534078538417816 at tensor([  1.9692,   2.9196, 565.7907, 698.3434])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:41:16.831771
+INFO:models.YOLOmodel:22:41:18.075185 Detected object person with confidence 0.45120811462402344 at tensor([  1.4882,   3.9557, 582.2275, 712.4738])
+INFO:models.YOLOmodel:22:41:18.077801 Detected object person with confidence 0.2714881896972656 at tensor([  5.0874,   3.2988, 969.7708, 707.3016])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:41:18.122079
+INFO:models.YOLOmodel:22:41:19.443381 Detected object person with confidence 0.5891107320785522 at tensor([  6.2535, 189.5905, 998.0443, 708.4650])
+INFO:models.YOLOmodel:22:41:19.445575 Detected object person with confidence 0.3148212730884552 at tensor([  5.0093,   6.6489, 968.7489, 706.3091])
+INFO:models.YOLOmodel:22:41:19.448124 Detected object person with confidence 0.2583763301372528 at tensor([  1.3410,   4.3146, 615.8554, 712.0470])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:41:19.483661
+INFO:models.YOLOmodel:22:41:20.636368 Detected object person with confidence 0.5552481412887573 at tensor([  1.8671,   3.4936, 581.7416, 707.3459])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:41:20.659592
+INFO:models.YOLOmodel:22:41:21.785722 Detected object person with confidence 0.5174180269241333 at tensor([  1.7348,   3.5937, 582.4368, 707.4634])
+INFO:mqtt.mqtt_pi:Successfully sent payload to shedsense/frame at 22:41:21.809707
+INFO:picamera2.picamera2:Initialization successful.
+INFO:picamera2.picamera2:Camera now open.
+INFO:picamera2.picamera2:Camera configuration has been adjusted!
+INFO:picamera2.picamera2:Configuration successful!
+INFO:picamera2.picamera2:Camera started
+INFO:YOLO model:22:42:04.032912 Detected object person with confidence 0.5931226015090942 at tensor([5.6674e-01, 8.5751e+01, 3.1871e+02, 7.0619e+02])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:04.058497
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:05.219730
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:06.344905
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:07.466310
+INFO:YOLO model:22:42:08.572018 Detected object person with confidence 0.44217145442962646 at tensor([5.2733e-01, 8.6479e+01, 3.1896e+02, 7.0318e+02])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:08.605964
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:09.727510
+INFO:YOLO model:22:42:10.839090 Detected object person with confidence 0.48281747102737427 at tensor([4.7224e-01, 1.4383e+02, 2.2935e+02, 4.9354e+02])
+INFO:YOLO model:22:42:10.840843 Detected object person with confidence 0.3047966957092285 at tensor([  1.1356, 143.9112, 227.7863, 294.7499])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:10.863324
+INFO:YOLO model:22:42:11.978915 Detected object person with confidence 0.29142504930496216 at tensor([4.2290e-01, 1.5691e+02, 2.3476e+02, 4.9970e+02])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:12.014192
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:13.131620
+INFO:YOLO model:22:42:14.247645 Detected object person with confidence 0.3108104169368744 at tensor([  0.8695, 126.8101, 318.9044, 705.3173])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:14.270512
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:15.396982
+INFO:YOLO model:22:42:16.543063 Detected object person with confidence 0.269360214471817 at tensor([ 91.7477,  98.0066, 511.2228, 310.1162])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:16.566120
+INFO:YOLO model:22:42:17.678068 Detected object person with confidence 0.3397235572338104 at tensor([260.2694, 116.0986, 504.6982, 272.7448])
+INFO:YOLO model:22:42:17.679789 Detected object person with confidence 0.32735833525657654 at tensor([  5.4131, 114.9250, 903.0138, 713.1912])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:17.703202
+INFO:YOLO model:22:42:18.808565 Detected object person with confidence 0.8826730251312256 at tensor([  3.0566,  91.6159, 903.3655, 710.2438])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:18.831619
+INFO:YOLO model:22:42:19.941951 Detected object person with confidence 0.8416051268577576 at tensor([  3.4229,  94.2329, 902.6228, 709.3891])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:19.965432
+INFO:YOLO model:22:42:21.070247 Detected object person with confidence 0.8857448101043701 at tensor([  3.0890,  93.4674, 903.5822, 709.9457])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:21.102887
+INFO:YOLO model:22:42:22.230083 Detected object person with confidence 0.7932353615760803 at tensor([  3.0576,  75.1715, 903.6777, 709.9823])
+INFO:YOLO model:22:42:22.231842 Detected object person with confidence 0.3028123676776886 at tensor([  1.5943,  68.5437, 903.9108, 712.2533])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:22.266694
+INFO:YOLO model:22:42:23.380195 Detected object person with confidence 0.8632735013961792 at tensor([  3.8590,  97.9842, 903.4637, 709.5447])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:23.405589
+INFO:YOLO model:22:42:24.514606 Detected object person with confidence 0.8467493057250977 at tensor([6.9298e-01, 9.4047e+01, 9.0462e+02, 7.0755e+02])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:24.539372
+INFO:YOLO model:22:42:25.674117 Detected object person with confidence 0.8168334364891052 at tensor([  3.2317,  90.8722, 908.5558, 707.6205])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:25.699999
+INFO:YOLO model:22:42:26.815666 Detected object person with confidence 0.9003625512123108 at tensor([  1.7210,  69.8007, 906.6952, 709.9607])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:26.840784
+INFO:YOLO model:22:42:27.941314 Detected object person with confidence 0.8706865906715393 at tensor([  4.3244,  67.1389, 906.7368, 710.1312])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:27.965951
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:29.084847
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:30.218369
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:31.346440
+INFO:YOLO model:22:42:32.455360 Detected object person with confidence 0.6706035137176514 at tensor([  5.6313, 121.5019, 910.1104, 709.8646])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:32.479401
+INFO:YOLO model:22:42:33.587259 Detected object person with confidence 0.8792496919631958 at tensor([2.1572e-01, 1.4092e+02, 9.0826e+02, 7.0993e+02])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:33.612402
+INFO:YOLO model:22:42:34.732407 Detected object person with confidence 0.7651877403259277 at tensor([  0.0000, 144.3954, 908.2207, 710.5515])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:34.757181
+INFO:YOLO model:22:42:35.868153 Detected object person with confidence 0.8779868483543396 at tensor([  0.0000, 144.0622, 908.0096, 710.7578])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:35.893100
+INFO:YOLO model:22:42:37.005848 Detected object person with confidence 0.7180328369140625 at tensor([  4.0239,  75.3263, 917.5272, 704.8413])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:37.043685
+INFO:YOLO model:22:42:38.164061 Detected object person with confidence 0.8434008359909058 at tensor([6.6853e-01, 2.3632e+00, 9.2859e+02, 7.0111e+02])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:38.188972
+INFO:YOLO model:22:42:39.302336 Detected object person with confidence 0.7427413463592529 at tensor([  3.8518,   1.8448, 949.8662, 689.3694])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:39.326831
+INFO:YOLO model:22:42:40.452521 Detected object person with confidence 0.6017345786094666 at tensor([ 11.2004,   2.4600, 955.5021, 705.0135])
+INFO:YOLO model:22:42:40.454776 Detected object person with confidence 0.5878099203109741 at tensor([135.3838,   0.9625, 957.7551, 698.5147])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:40.478853
+INFO:YOLO model:22:42:41.597645 Detected object person with confidence 0.8894110321998596 at tensor([ 17.1785,   0.0000, 951.9968, 707.0472])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:41.622217
+INFO:YOLO model:22:42:42.725099 Detected object person with confidence 0.8935137987136841 at tensor([ 15.7536,   0.0000, 950.8748, 707.8686])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:42.748835
+INFO:YOLO model:22:42:43.851404 Detected object person with confidence 0.8729473352432251 at tensor([7.9276e+00, 2.6254e-01, 9.4946e+02, 7.0848e+02])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:43.875848
+INFO:YOLO model:22:42:44.981407 Detected object person with confidence 0.890628457069397 at tensor([1.1320e+01, 8.8531e-02, 9.5080e+02, 7.0814e+02])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:45.005813
+INFO:YOLO model:22:42:46.121131 Detected object person with confidence 0.857047975063324 at tensor([ 10.8005,   1.1788, 952.0933, 709.2042])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:46.145408
+INFO:YOLO model:22:42:47.264375 Detected object person with confidence 0.8385649919509888 at tensor([  4.7983,   1.0929, 950.4248, 709.3250])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:47.289532
+INFO:YOLO model:22:42:48.397976 Detected object person with confidence 0.8343231678009033 at tensor([3.7902e+00, 7.3541e-01, 9.5039e+02, 7.0981e+02])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:48.423242
+INFO:YOLO model:22:42:49.542491 Detected object person with confidence 0.840333104133606 at tensor([5.6700e+00, 6.8738e-01, 9.4996e+02, 7.0880e+02])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:49.566676
+INFO:YOLO model:22:42:50.707508 Detected object person with confidence 0.8671045303344727 at tensor([  7.4215,   1.1678, 950.6516, 708.7828])
+INFO:MQTT:Successfully sent payload to shedsense/frame at 22:42:50.732154
