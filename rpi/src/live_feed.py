@@ -19,14 +19,17 @@ handler = logging.FileHandler(f"/home/shedsense1/ShedSense/rpi/logs/live_feed/{d
 logger.setLevel(logging.INFO)
 logger.addHandler(handler)
 
-def main(is_cpu):   
-    # Default to LOI implementation  
-    camera = Picamera2()
-    cam_config = camera.create_video_configuration(main={"format": 'RGB888'})
-    camera.configure(cam_config)
+def main(is_cpu, is_recorded):
+    if is_recorded:
+        cap = cv2.VideoCapture(is_recorded)
+    else:      
+        # Default to LOI implementation  
+        camera = Picamera2()
+        cam_config = camera.create_video_configuration(main={"format": 'RGB888'})
+        camera.configure(cam_config)
 
-    camera.start()
-    time.sleep(1)
+        camera.start()
+        time.sleep(1)
     
     #MQTT setup
     Pi_MQTT_client = MQTTPiClient()
@@ -44,7 +47,15 @@ def main(is_cpu):
     
     while True:
         start = time.time()
-        annotated_frame = loi_detection(camera, borders, Yolomodel, person_tracker, bike_tracker)
+        
+        if is_recorded:
+            ret, frame = cap.read()
+            if not ret:
+                return
+        else:
+            frame = camera.capture_array("main")   
+        
+        annotated_frame = loi_detection(frame, borders, Yolomodel, person_tracker, bike_tracker)
         
         for line in borders:
         # line coords must be in (x,y)
@@ -77,6 +88,7 @@ def main(is_cpu):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Starts live feed of Pi camera")
     parser.add_argument("--cpu", help="Use CPU model (default is tflite)", action="store_true")
+    parser.add_argument("--recorded", help="Use recorded video for detection", default=None)
     # parser.add_argument("--roi", help="Region-of-Interst implementation", action="store_true")
     # parser.add_argument("--loi", help="Line-of-Interst implementation", action="store_true")
     # parser.add_argument("--imgtest", help="Testing of model on provided file path")
@@ -86,4 +98,4 @@ if __name__ == "__main__":
     # assert (args.roi or args.loi), "One of the implementations (roi or loi) must be selected"   
     # assert not (args.roi and args.loi), "Only one of the implementations (roi or loi) can be selected"   
     
-    main(args.cpu)
+    main(args.cpu, args.recorded)

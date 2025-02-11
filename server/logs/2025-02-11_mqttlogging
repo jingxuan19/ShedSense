@@ -14,3 +14,6 @@ INFO:mqtt_server:Connected to test.mosquitto.org at port 1883 at 11:50:07.400742
 INFO:mqtt_server:Connected to test.mosquitto.org at port 1883 at 11:52:36.274244
 INFO:mqtt_server:Connected to test.mosquitto.org at port 1883 at 11:54:58.938612
 INFO:mqtt_server:Connected to test.mosquitto.org at port 1883 at 11:55:25.202939
+INFO:mqtt_server:Connected to test.mosquitto.org at port 1883 at 13:34:51.327664
+INFO:mqtt_server:Connected to test.mosquitto.org at port 1883 at 17:07:03.404405
+INFO:mqtt_server:Connected to test.mosquitto.org at port 1883 at 17:16:25.500361
