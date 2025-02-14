@@ -15,7 +15,7 @@ def main():
     Client.client.subscribe("recording_control")
     
     
-    picam2.start_recording(encoder, f"/home/shedsense1/ShedSense/rpi/data/recordings/{datetime.date.today()}.h264")
+    picam2.start_recording(encoder, f"/home/shedsense1/Desktop/recordings/full_recording_{datetime.date.today()}.h264")
     while True:
         if Client.subscribed_msg == "STOP":
             picam2.stop_recording()

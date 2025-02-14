@@ -15,10 +15,7 @@ handler = logging.FileHandler(f"/home/shedsense1/ShedSense/rpi/logs/detection/{d
 logger.setLevel(logging.INFO)
 logger.addHandler(handler)
 
-def loi_detection(camera, borders, model, person_tracker, bike_tracker):   
-    frame = camera.capture_array("main")   
-    # print(frame.shape)
-            
+def loi_detection(frame, borders, model, person_tracker, bike_tracker):              
     result = model.detect(frame)
     detected_objects = model.separate_objects(result) # box, score, class_id, class_name
     
