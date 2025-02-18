@@ -16,4 +16,12 @@ trying to solve preprocessing problem (not a priority)
 4/1
 https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html
 
-8/1
+18/2
+Try using a record-detect paradigm:
+captialising on the sparseness of usage of a bikeshed, record the bikeshed in batches, whilst detecting changes in pixels.
+If there is sufficient pixel changes above threshold, start detection on that batch.
+Otherwise, overwrite the batch.
+Batch? or keep the recording from the change in pixels, would that provide enough information?
+Probably need to record some history (eg 30s), tbh can try both
+This helps improve framerate
+Concept of highest entropy proxy
