@@ -23,6 +23,8 @@ def main(is_cpu, is_recorded):
     if is_recorded:
         cap = cv2.VideoCapture(is_recorded)
     else:      
+        video = None
+        
         # Default to LOI implementation  
         camera = Picamera2()
         cam_config = camera.create_video_configuration(main={"format": 'RGB888'})
@@ -54,6 +56,10 @@ def main(is_cpu, is_recorded):
                 return
         else:
             frame = camera.capture_array("main")   
+
+            if not video:
+                video = cv2.VideoWriter(f"/home/shedsense1/Desktop/recordings/{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.mp4", cv2.VideoWriter_fourcc(*"mp4v"), 1, (frame.shape[1], frame.shape[0]))
+            video.write(frame)
         
         annotated_frame = loi_detection(frame, borders, Yolomodel, person_tracker, bike_tracker)
         
