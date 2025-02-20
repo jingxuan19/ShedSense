@@ -25,3 +25,7 @@ Batch? or keep the recording from the change in pixels, would that provide enoug
 Probably need to record some history (eg 30s), tbh can try both
 This helps improve framerate
 Concept of highest entropy proxy
+
+19/2
+Implemented MQTT with TTLS
+Network bottleneck is quite significant, frames dropped a lot while on discord call
