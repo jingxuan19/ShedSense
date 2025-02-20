@@ -1,6 +1,9 @@
 broker: test.mosquitto.org
-port: 1883
+port: 8884
 
-topic: "shedsense/livefeed"
+topic: shedsense/livefeed
 
+ca_cert: /home/shedsense1/ShedSense/rpi/src/mqtt/certs/mosquitto.org.crt
+cert_file: /home/shedsense1/ShedSense/rpi/src/mqtt/certs/client.crt
+key: /home/shedsense1/ShedSense/rpi/src/mqtt/certs/client.key
 # payload: {img, timestamp}
