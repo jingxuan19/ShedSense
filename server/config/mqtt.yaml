@@ -3,8 +3,8 @@ port: 8884
 
 topic: "shedsense/livefeed"
 
-ca_cert: C:\Users\tanji\OneDrive\Cambridge\2\Project\ShedSense\server\src\certs\mosquitto.org.crt
-certfile: C:\Users\tanji\OneDrive\Cambridge\2\Project\ShedSense\server\src\certs\client.crt
-keyfile: C:\Users\tanji\OneDrive\Cambridge\2\Project\ShedSense\server\src\certs\client.key
+ca_cert: C:\Users\tanji\OneDrive\Cambridge\2\Project\MQTT_certs\mosquitto.org.crt
+certfile: C:\Users\tanji\OneDrive\Cambridge\2\Project\MQTT_certs\client.crt
+keyfile: C:\Users\tanji\OneDrive\Cambridge\2\Project\MQTT_certs\client.key
 
 # payload: {img, timestamp}
