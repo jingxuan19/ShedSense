@@ -21,6 +21,7 @@ class MQTTPiClient:
             self.port = config["port"]
                 
         self.client = mqtt_client.Client()
+        self.client.tls_set(ca_certs=config["ca_cert"], certfile=config["cert_file"], keyfile=config["key"])
         self.client.on_connect = self.on_connect
         
         self.client.connect(self.broker, self.port)
