@@ -10,12 +10,12 @@ class MQTTPiClient:
     
     def __init__(self):       
         self.logger = logging.getLogger("MQTT")
-        self.handler = logging.FileHandler(f"/home/shedsense1/ShedSense/rpi/logs/mqtt/{datetime.date.today()}_mqttlogging")
+        self.handler = logging.FileHandler(f"/home/shedsense1/ShedSense/node/logs/mqtt/{datetime.date.today()}_mqttlogging")
         
         self.logger.setLevel(logging.INFO)
         self.logger.addHandler(self.handler)
         
-        with open("/home/shedsense1/ShedSense/rpi/config/mqtt.yaml", "r") as f:
+        with open("/home/shedsense1/ShedSense/node/config/mqtt.yaml", "r") as f:
             config = yaml.safe_load(f)
             self.broker = config["broker"]
             self.port = config["port"]

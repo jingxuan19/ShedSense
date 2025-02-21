@@ -29,3 +29,6 @@ Concept of highest entropy proxy
 19/2
 Implemented MQTT with TTLS
 Network bottleneck is quite significant, frames dropped a lot while on discord call
+
+21/2
+SSIM (Structural Similarity Index Measure) for detecting changes between frames

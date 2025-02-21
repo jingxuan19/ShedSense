@@ -5,12 +5,12 @@ import datetime
 class YOLOmodel:
     def __init__(self, is_cpu: bool):
         if is_cpu:
-            self.model = YOLO("/home/shedsense1/ShedSense/rpi/src/models/yolov10n.pt", task="detect")
+            self.model = YOLO("/home/shedsense1/ShedSense/node/src/models/yolov10n.pt", task="detect")
         else:
-            self.model = YOLO("/home/shedsense1/ShedSense/rpi/src/models/yolov10n_saved_model/yolov10n_float32.tflite", task="detect")
+            self.model = YOLO("/home/shedsense1/ShedSense/node/src/models/yolov10n_saved_model/yolov10n_float32.tflite", task="detect")
         
         self.logger = logging.getLogger("YOLO model")
-        self.handler = logging.FileHandler(f"/home/shedsense1/ShedSense/rpi/logs/model/{datetime.date.today()}_YOLO")
+        self.handler = logging.FileHandler(f"/home/shedsense1/ShedSense/node/logs/model/{datetime.date.today()}_YOLO")
         
         self.logger.setLevel(logging.INFO)
         self.logger.addHandler(self.handler)        

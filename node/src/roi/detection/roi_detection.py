@@ -1,6 +1,6 @@
 import cv2
 import torch
-from models.YOLOmodel import YOLOmodel
+from rpi.src.models.YOLO_model import YOLOmodel
 
 def roi_detection(is_cpu: bool, camera):
     Yolomodel = YOLOmodel(is_cpu)
