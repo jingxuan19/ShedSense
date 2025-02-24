@@ -6,6 +6,11 @@ import cv2
 import numpy as np
 
 class MQTTServerClient:
+    frame = None
+    status = None
+    
+    client = None
+    
     def __init__(self):
         logging.basicConfig(filename=f"C:/Users/tanji/OneDrive/Cambridge/2/Project/ShedSense/server/logs/{datetime.date.today()}_mqttlogging", level=logging.INFO)        
         
@@ -17,6 +22,7 @@ class MQTTServerClient:
             self.port = config["port"]
         
         self.frame = None
+        self.status = None
                 
         self.client = mqtt_client.Client()
         self.client.tls_set(ca_certs=config["ca_cert"], certfile=config["certfile"], keyfile=config["keyfile"])
@@ -39,8 +45,10 @@ class MQTTServerClient:
     def on_message(self, client, user_data, msg):
         print("RECEIVED")
         # print(type(msg.payload))
-        self.frame = cv2.imdecode(np.frombuffer(msg.payload, dtype=np.uint8), cv2.IMREAD_COLOR)
-        
+        if msg.topic == "shedsense/node/frame":
+            self.frame = cv2.imdecode(np.frombuffer(msg.payload, dtype=np.uint8), cv2.IMREAD_COLOR)
+        elif msg.topic == "shedsense/node/status":
+            self.status = msg.payload        
                     
     def publish(self, topic, payload):
         return_code = self.client.publish(topic, payload)
@@ -54,3 +62,6 @@ class MQTTServerClient:
     
     def disconnect(self):
         self.client.disconnect()
+
+
+    

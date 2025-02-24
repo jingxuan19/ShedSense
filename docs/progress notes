@@ -32,3 +32,23 @@ Network bottleneck is quite significant, frames dropped a lot while on discord c
 
 21/2
 SSIM (Structural Similarity Index Measure) for detecting changes between frames
+First Test:
+    Standard Core
+        detection on every frame
+        No authentication for MQTT
+    5 degrees C
+    4h 25min 46s
+    4611mAh
+    22972mWh
+Second Test:
+    Standard Core
+        detection on every frame
+        Authentication for MQTT 
+    15 degrees C
+    9h 29min 27s
+    9846mAh
+    49060mWh
+    ~5.220W
+
+24/2
+Kept window open for 30 frames

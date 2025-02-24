@@ -35,6 +35,7 @@ def live_feed(is_recorded, frame_buffer):
         time.sleep(1)
         
     prev_frame_grey = None
+    wakeup_time_left = 0
     
     #MQTT setup
     Node_MQTT_client = MQTTPiClient()
@@ -71,16 +72,21 @@ def live_feed(is_recorded, frame_buffer):
         frame_grey = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         if not prev_frame_grey:
             prev_frame_grey = frame_grey
-        else:
-            frame_difference = cv2.absdiff(prev_frame_grey, frame_grey)
+        
+        frame_difference = cv2.absdiff(prev_frame_grey, frame_grey)
+        
+        _, filter_frame = cv2.threshold(frame_difference,30, 255, cv2.THRESH_BINARY)
+        pixels_changed = np.sum(filter_frame)/255
+        logger.info(f"no. of pixels_changed: {pixels_changed}")
+        
+        
+        if pixels_changed > 5000:
+            wakeup_time_left = 30 # How many more frames does it take before it decides that an event is over
+        
+        if wakeup_time_left > 0:
+            frame_buffer.put(frame)
             
-            _, filter_frame = cv2.threshold(frame_difference,30, 255, cv2.THRESH_BINARY)
-            pixels_changed = np.sum(filter_frame)/255
-            
-            if pixels_changed > 5000:
-                frame_buffer.put(frame)
-                
-            prev_frame_grey = frame_grey
+        prev_frame_grey = frame_grey
             
             
         # annotated_frame = loi_detection(frame, borders, Yolomodel, person_tracker, bike_tracker, Node_MQTT_client)

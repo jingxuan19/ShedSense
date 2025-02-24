@@ -30,7 +30,7 @@ def main(is_cpu):
         if not camera1_frame_buffer.empty():
             frame = camera1_frame_buffer.get()
             frame = loi_detection(frame, camera1_borders, Yolo_model, camera1_borders)
-            shed_state.anomaly_detection(300) # how many frames          
+            shed_state.anomaly_detection(30) # how many frames          
     
 
 
