@@ -31,7 +31,8 @@ class MQTTServerClient:
         self.client.on_message = self.on_message        
                 
         self.client.connect(self.broker, self.port)
-        self.client.subscribe("shedsense/frame")     
+        self.client.subscribe("shedsense/node/frame")    
+        self.client.subscribe("shedsense/node/status") 
         
         
     def on_connect(self, client, user_data, flags, reason_code):
