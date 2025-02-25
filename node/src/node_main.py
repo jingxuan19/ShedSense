@@ -36,8 +36,10 @@ def main(is_cpu, recorded_path):
     Yolo_model = YOLOmodel(is_cpu)
     
     # Camera 1 setup    
+    shutdown_event = threading.Event()
+    
     camera1_frame_buffer = queue.Queue(maxsize=500)
-    camera1_thread = threading.Thread(target=live_feed, args=(recorded_path, camera1_frame_buffer))
+    camera1_thread = threading.Thread(target=live_feed, args=(shutdown_event, recorded_path, camera1_frame_buffer))
     camera1_thread.start()
     camera1_borders = load_lines("test_1")
     
@@ -65,14 +67,13 @@ def main(is_cpu, recorded_path):
             else:
                 shed_state.history_update({}, False)
                 shed_state.history_update({}, True)
-            # if cv2.waitKey(1) == ord('q'):
-            #     break
+
     except KeyboardInterrupt:
-        logger.info("Keyboard interrupt, releasing resources")
+        logger.warning("Node thread: Keyboard interrupt, releasing resources")
+        shutdown_event.set()
+        camera1_thread.join()
         camera1_frame_buffer.queue.clear()
         
-        
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Starts node of Pi camera")
