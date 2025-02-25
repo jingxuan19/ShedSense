@@ -7,7 +7,7 @@ class YOLOmodel:
         if is_cpu:
             self.model = YOLO("/home/shedsense1/ShedSense/rpi/src/models/yolov10n.pt", task="detect")
         else:
-            self.model = YOLO("/home/shedsense1/ShedSense/rpi/src/models/yolov10n_saved_model/yolov10n_float32.tflite", task="detect")
+            self.model = YOLO("/home/shedsense1/ShedSense/rpi/src/models/yolov10n_saved_model/yolov10n_full_integer_quant_edgetpu.tflite", task="detect")
         
         self.logger = logging.getLogger("YOLO model")
         self.handler = logging.FileHandler(f"/home/shedsense1/ShedSense/rpi/logs/model/{datetime.date.today()}_YOLO")

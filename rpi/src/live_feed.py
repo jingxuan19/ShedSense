@@ -47,36 +47,41 @@ def main(is_cpu, is_recorded):
     person_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0.3)
     bike_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0.3)
     
-    while True:
-        start = time.time()
-        
+    try:
+        while True:
+            start = time.time()
+            
+            if is_recorded:
+                ret, frame = cap.read()
+                if not ret:
+                    return
+            else:
+                frame = camera.capture_array("main")   
+
+                if not video:
+                    video = cv2.VideoWriter(f"/home/shedsense1/Desktop/recordings/{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.mp4", cv2.VideoWriter_fourcc(*"mp4v"), 15, (frame.shape[1], frame.shape[0]))
+                video.write(frame)
+            
+            annotated_frame = loi_detection(frame, borders, Yolomodel, person_tracker, bike_tracker)
+            
+            for line in borders:
+            # line coords must be in (x,y)
+                cv2.line(annotated_frame, line.pt1, line.pt2, color=(0, 255, 0), thickness=5)
+
+            _, payload = cv2.imencode('.jpeg', annotated_frame)
+            # print(payload.dtype, payload.size)
+
+            Pi_MQTT_client.publish("ShedSense/node/frame", payload.tobytes())
+            
+            end = time.time()
+            logger.info(f"Time taken to process frame: {end-start}s")
+    except KeyboardInterrupt:
+        Pi_MQTT_client.disconnect()
         if is_recorded:
-            ret, frame = cap.read()
-            if not ret:
-                return
+            cap.release()
         else:
-            frame = camera.capture_array("main")   
-
-            if not video:
-                video = cv2.VideoWriter(f"/home/shedsense1/Desktop/recordings/{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.mp4", cv2.VideoWriter_fourcc(*"mp4v"), 1, (frame.shape[1], frame.shape[0]))
-            video.write(frame)
+            video.release()
         
-        annotated_frame = loi_detection(frame, borders, Yolomodel, person_tracker, bike_tracker)
-        
-        for line in borders:
-        # line coords must be in (x,y)
-            cv2.line(annotated_frame, line.pt1, line.pt2, color=(0, 255, 0), thickness=5)
-
-        _, payload = cv2.imencode('.jpeg', annotated_frame)
-        # print(payload.dtype, payload.size)
-
-        Pi_MQTT_client.publish("shedsense/frame", payload.tobytes())
-        
-        end = time.time()
-        logger.info(f"Time taken to process frame: {end-start}s")
-        
-    
-    Pi_MQTT_client.disconnect()
     
     # if img_path:
     #     draw_line(img_path)
