@@ -9,8 +9,8 @@ class MQTTPiClient:
     subscribed_msg = None
     
     def __init__(self):       
-        self.logger = logging.getLogger("MQTT")
-        self.handler = logging.FileHandler(f"/home/shedsense1/ShedSense/node/logs/mqtt/{datetime.date.today()}_mqttlogging")
+        self.logger = logging.getLogger(__name__)
+        self.handler = logging.FileHandler(f"/home/shedsense1/ShedSense/node/logs/{datetime.date.today()}")
         
         self.logger.setLevel(logging.INFO)
         self.logger.addHandler(self.handler)
@@ -22,6 +22,7 @@ class MQTTPiClient:
                 
         self.client = mqtt_client.Client()
         self.client.tls_set(ca_certs=config["ca_cert"], certfile=config["cert_file"], keyfile=config["key"])
+        
         self.client.on_connect = self.on_connect
         
         self.client.connect(self.broker, self.port)
@@ -41,11 +42,11 @@ class MQTTPiClient:
     def publish(self, topic, payload):
         return_code = self.client.publish(topic, payload)
         if return_code[0] == 0:
-            self.logger.info(f"Successfully sent payload to {topic} at {datetime.datetime.now().time()}")
+            self.logger.info(f"Successfully sent payload to {topic}")
             return 0
         
         # Problem
-        self.logger.warning(f"Failed to send payload to {topic} at {datetime.datetime.now().time()}")
+        self.logger.warning(f"Failed to send payload to {topic}")
         return 1    
     
     def disconnect(self):

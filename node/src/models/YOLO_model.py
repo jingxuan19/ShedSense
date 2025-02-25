@@ -7,10 +7,10 @@ class YOLOmodel:
         if is_cpu:
             self.model = YOLO("/home/shedsense1/ShedSense/node/src/models/yolov10n.pt", task="detect")
         else:
-            self.model = YOLO("/home/shedsense1/ShedSense/node/src/models/yolov10n_saved_model/yolov10n_float32.tflite", task="detect")
+            self.model = YOLO("/home/shedsense1/ShedSense/node/src/models/yolov10n_saved_model/yolov10n_full_integer_quant_edgetpu.tflite", task="detect")
         
-        self.logger = logging.getLogger("YOLO model")
-        self.handler = logging.FileHandler(f"/home/shedsense1/ShedSense/node/logs/model/{datetime.date.today()}_YOLO")
+        self.logger = logging.getLogger(__name__)
+        self.handler = logging.FileHandler(f"/home/shedsense1/ShedSense/node/logs/{datetime.date.today()}")
         
         self.logger.setLevel(logging.INFO)
         self.logger.addHandler(self.handler)        
@@ -34,7 +34,7 @@ class YOLOmodel:
                 "class_name": c_name
             })    
             
-            self.logger.info(f"{datetime.datetime.now().time()} Detected object {c_name} with confidence {score} at {box}")
+            self.logger.info(f"Detected object {c_name} with confidence {score} at {box}")
         
         return detected_objects
 

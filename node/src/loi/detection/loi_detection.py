@@ -9,13 +9,14 @@ from loi.detection.Border import Flow_status
 # from loi.detection.load_lines import load_lines
 # import math
          
-logger = logging.getLogger("LOI detection")
-handler = logging.FileHandler(f"/home/shedsense1/ShedSense/node/logs/detection/{datetime.date.today()}_loidetection")
+logger = logging.getLogger(__name__)
+handler = logging.FileHandler(f"/home/shedsense1/ShedSense/node/logs/{datetime.date.today()}")
        
 logger.setLevel(logging.INFO)
 logger.addHandler(handler)
 
-def loi_detection(frame, model, Shed_state, borders):              
+def loi_detection(frame, model, Shed_state, borders):
+    # print(model)    
     result = model.detect(frame)
     detected_objects = model.separate_objects(result) # box, score, class_id, class_name
     
@@ -66,7 +67,7 @@ def loi_detection(frame, model, Shed_state, borders):
 
     for id in Shed_state.history:
         if id in person_measured:
-            cv2.line(frame, Tracking_history.history[id]["center"].astype(np.int64), person_measured[id].astype(np.int64), (255, 0, 0), 2)            
+            cv2.line(frame, Shed_state.history[id]["center"].astype(np.int64), person_measured[id].astype(np.int64), (255, 0, 0), 2)            
             for b in borders:
                 flow_status = b.intersect(np.concatenate((Shed_state.history[id]["center"], person_measured[id])))
                 if flow_status is Flow_status.IN:
@@ -80,7 +81,7 @@ def loi_detection(frame, model, Shed_state, borders):
                         logger.warning("Detected negative person occupancy")
         
         elif id in bike_measured:            
-            cv2.line(frame, Tracking_history.history[id]["center"].astype(np.int64), bike_measured[id].astype(np.int64), (255, 0, 0), 2)            
+            cv2.line(frame, Shed_state.history[id]["center"].astype(np.int64), bike_measured[id].astype(np.int64), (255, 0, 0), 2)            
             for b in borders:
                 flow_status = b.intersect(np.concatenate((Shed_state.history[id]["center"], bike_measured[id])))
                 if flow_status is Flow_status.IN:
@@ -93,8 +94,8 @@ def loi_detection(frame, model, Shed_state, borders):
                     else:
                         Shed_state.logger.warning("Detected negative bike occupancy")          
 
-    Shed_state.history_update(person_measured)
-    Shed_state.history_update(bike_measured)
+    Shed_state.history_update(person_measured, False)
+    Shed_state.history_update(bike_measured, True)
     
     cv2.putText(frame, f"people: {Tracking_history.person_in}", (0,25), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 3)  
     cv2.putText(frame, f"bikes: {Tracking_history.person_in}", (0,50), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 3)  

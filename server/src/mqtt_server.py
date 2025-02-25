@@ -7,7 +7,7 @@ import numpy as np
 
 class MQTTServerClient:
     def __init__(self):
-        logging.basicConfig(filename=f"C:/Users/tanji/OneDrive/Cambridge/2/Project/ShedSense/server/logs/{datetime.date.today()}_mqttlogging", level=logging.INFO)        
+        logging.basicConfig(filename=f"C:/Users/tanji/OneDrive/Cambridge/2/Project/ShedSense/server/logs/{datetime.date.today()}", level=logging.INFO)        
         
         self.logger = logging.getLogger(__name__)
 
