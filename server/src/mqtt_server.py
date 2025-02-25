@@ -7,6 +7,9 @@ import numpy as np
 
 class MQTTServerClient:
     frame = None
+    annotated_frame = None
+    filtered_frame = None
+    
     status = None
     
     client = None
@@ -31,8 +34,9 @@ class MQTTServerClient:
         self.client.on_message = self.on_message        
                 
         self.client.connect(self.broker, self.port)
-        self.client.subscribe("shedsense/node/frame")    
-        self.client.subscribe("shedsense/node/status") 
+        
+        for topic in config["topics"]:
+            self.client.subscribe(topic)    
         
         
     def on_connect(self, client, user_data, flags, reason_code):
@@ -46,10 +50,22 @@ class MQTTServerClient:
     def on_message(self, client, user_data, msg):
         print("RECEIVED")
         # print(type(msg.payload))
-        if msg.topic == "shedsense/node/frame":
+        if msg.topic == "ShedSense/node/frame":
             self.frame = cv2.imdecode(np.frombuffer(msg.payload, dtype=np.uint8), cv2.IMREAD_COLOR)
-        elif msg.topic == "shedsense/node/status":
-            self.status = msg.payload        
+            self.logger.info("Received frame")  
+                     
+        elif msg.topic == "ShedSense/node/status":
+            self.status = msg.payload
+            self.logger.info(f"Current status: {self.status}")        
+        
+        elif msg.topic == "ShedSense/node/annotated_frame":
+            self.annotated_frame = cv2.imdecode(np.frombuffer(msg.payload, dtype=np.uint8), cv2.IMREAD_COLOR)
+            self.logger.info("Received annotated frame")     
+        
+        elif msg.topic == "ShedSense/node/filtered_frame":
+            self.filtered_frame = cv2.imdecode(np.frombuffer(msg.payload, dtype=np.uint8), cv2.IMREAD_COLOR)
+            self.logger.info("Received filtered frame")     
+            
                     
     def publish(self, topic, payload):
         return_code = self.client.publish(topic, payload)
