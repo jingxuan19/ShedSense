@@ -38,6 +38,7 @@ def live_feed(is_recorded, frame_buffer):
         
     prev_frame_grey = None
     wakeup_time_left = 0
+    wakeup_time_left = 0
     
     #MQTT setup
     Node_MQTT_client = MQTTPiClient()
