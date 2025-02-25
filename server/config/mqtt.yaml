@@ -1,7 +1,12 @@
 broker: test.mosquitto.org
 port: 8884
 
-topic: "shedsense/node/frame"
+topics: 
+  - "ShedSense/node/frame"
+  - "ShedSense/node/status"
+  - "ShedSense/node/annotated_frame"
+  - "ShedSense/node/filtered_frame"
+  
 
 ca_cert: C:\Users\tanji\OneDrive\Cambridge\2\Project\MQTT_certs\mosquitto.org.crt
 certfile: C:\Users\tanji\OneDrive\Cambridge\2\Project\MQTT_certs\client.crt
