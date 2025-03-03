@@ -951,3 +951,260 @@ INFO:mqtt_server:Received frame
 INFO:mqtt_server:Received filtered frame
 INFO:mqtt_server:Received frame
 INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Connected to test.mosquitto.org at port 8884 at 19:00:45.438487
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received annotated frame
+INFO:mqtt_server:Current status: b'{"people": 0, "bikes": 0, "alert": "0"}'
+INFO:mqtt_server:Received annotated frame
+INFO:mqtt_server:Current status: b'{"people": 0, "bikes": 0, "alert": "0"}'
+INFO:mqtt_server:Received annotated frame
+INFO:mqtt_server:Current status: b'{"people": 0, "bikes": 0, "alert": "0"}'
+INFO:mqtt_server:Received annotated frame
+INFO:mqtt_server:Current status: b'{"people": 0, "bikes": 0, "alert": "0"}'
+INFO:mqtt_server:Received annotated frame
+INFO:mqtt_server:Current status: b'{"people": 0, "bikes": 0, "alert": "0"}'
+INFO:mqtt_server:Received annotated frame
+INFO:mqtt_server:Current status: b'{"people": 0, "bikes": 0, "alert": "0"}'
+INFO:mqtt_server:Received annotated frame
+INFO:mqtt_server:Current status: b'{"people": 0, "bikes": 0, "alert": "0"}'
+INFO:mqtt_server:Received annotated frame
+INFO:mqtt_server:Current status: b'{"people": 0, "bikes": 0, "alert": "0"}'
+INFO:mqtt_server:Received annotated frame
+INFO:mqtt_server:Current status: b'{"people": 0, "bikes": 0, "alert": "0"}'
+INFO:mqtt_server:Received annotated frame
+INFO:mqtt_server:Current status: b'{"people": 0, "bikes": 0, "alert": "0"}'
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received annotated frame
+INFO:mqtt_server:Current status: b'{"people": 0, "bikes": 0, "alert": "0"}'
+INFO:mqtt_server:Received annotated frame
+INFO:mqtt_server:Current status: b'{"people": 0, "bikes": 0, "alert": "0"}'
+INFO:mqtt_server:Received annotated frame
+INFO:mqtt_server:Current status: b'{"people": 0, "bikes": 0, "alert": "0"}'
+INFO:mqtt_server:Received annotated frame
+INFO:mqtt_server:Current status: b'{"people": 0, "bikes": 0, "alert": "0"}'
+INFO:mqtt_server:Received annotated frame
+INFO:mqtt_server:Current status: b'{"people": 0, "bikes": 0, "alert": "0"}'
+INFO:mqtt_server:Received annotated frame
+INFO:mqtt_server:Current status: b'{"people": 0, "bikes": 0, "alert": "0"}'
+INFO:mqtt_server:Received annotated frame
+INFO:mqtt_server:Current status: b'{"people": 0, "bikes": 0, "alert": "0"}'
+INFO:mqtt_server:Received annotated frame
+INFO:mqtt_server:Current status: b'{"people": 0, "bikes": 0, "alert": "0"}'
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Connected to test.mosquitto.org at port 8884 at 19:23:48.673903
+INFO:mqtt_server:Connected to test.mosquitto.org at port 8884 at 19:24:00.563033
+INFO:mqtt_server:Connected to test.mosquitto.org at port 8884 at 19:27:35.750464
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
