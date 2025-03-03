@@ -32,6 +32,7 @@ Network bottleneck is quite significant, frames dropped a lot while on discord c
 
 21/2
 SSIM (Structural Similarity Index Measure) for detecting changes between frames
+These tests are probably done with tflite running on CPU
 First Test:
     Standard Core
         detection on every frame
@@ -52,3 +53,23 @@ Second Test:
 
 24/2
 Kept window open for 30 frames
+
+26/2
+    With threading
+        detection on every frame
+        Authentication for MQTT 
+    25 degrees C
+    3h 58min 57s
+    4788mAh
+    23840mWh
+    ~6.940W
+
+3/3
+So far I think the person detection is pretty good, although the threshold for the SORT algorithm needs to be tweaked
+    I want to see how is the relationship between the confidence given by YOLO and actual ground truth, then use that as the threshold instead of the default
+I should do another exeriment tomorrow on core to have a better reading with tflite on TPU
+SORT paper: https://arxiv.org/pdf/1602.00763
+Occupancy: Suspect
+Anomaly: Likely fine
+Low power: ok
+Low cost: fine
