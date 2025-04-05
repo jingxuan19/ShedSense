@@ -1,6 +1,50 @@
 import cv2
+import numpy as np
 from ultralytics import YOLO
+from sort import Sort
+from loi_detection import loi_detection
+from Shed_state import Shed_state
+from load_lines import load_lines
+# from ultralytics import YOLO
 
-model = YOLO("/home/shedsense1/ShedSense/node/src/models/yolov10n_saved_model/yolov10n_full_integer_quant_edgetpu.tflite", task="detect")
+cap = cv2.VideoCapture("/home/shedsense1/ShedSense/data/filtered_raw/02-26_r.mp4")
+timestamps = [cap.get(cv2.CAP_PROP_POS_MSEC)]
 
-cap = cv2.VideoCapture()
+width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+
+yolo_out = cv2.VideoWriter("/home/shedsense1/ShedSense/data/detect_sort/02-26_yolo.mp4", cv2.VideoWriter_fourcc(*"mp4v"), 15, (width, height))
+sort_out = cv2.VideoWriter("/home/shedsense1/ShedSense/data/detect_sort/02-26_sort.mp4", cv2.VideoWriter_fourcc(*"mp4v"), 15, (width, height))
+
+model = YOLO("/home/shedsense1/ShedSense/node/src/models/yolov10n_saved_model/yolov10n_float32.tflite", task="detect")
+
+person_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0.3)
+bike_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0.3)
+
+Shedstate = Shed_state()
+
+borders = load_lines("test_1")
+
+while cap.isOpened():
+    ret, frame =  cap.read()
+    if not ret:
+        break
+    
+    yolo_det, sort_det = loi_detection(frame, model, Shedstate, borders)
+    
+    for line in borders:
+        # line coords must be in (x,y)
+        cv2.line(yolo_det, line.pt1, line.pt2, color=(0, 255, 0), thickness=5)
+        
+    cv2.imshow("yolo", yolo_det)
+    cv2.imshow("sort", sort_det)
+    
+    yolo_out.write(yolo_det)
+    sort_out.write(sort_det)
+        
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+    
+cap.release()
+yolo_out.release()
+sort_out.release()

@@ -1,0 +1,854 @@
+03-03 17:49 sensors.live_feed INFO     Pulling stream from recording
+03-03 17:49 __main__     INFO     Detection triggered
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.07833576202392578s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 2.728323221206665s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 145.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.029292821884155273s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 21.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.017141103744506836s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01669907569885254s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.02083563804626465s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012314319610595703s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01844644546508789s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.015471220016479492s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.015763044357299805s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01648235321044922s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013569831848144531s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.023411989212036133s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 19.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.015266180038452148s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014563560485839844s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.018958330154418945s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.025596141815185547s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.016130447387695312s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.0168914794921875s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014127969741821289s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.021320343017578125s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.021294832229614258s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01620030403137207s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014974594116210938s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014807462692260742s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.016906261444091797s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014021873474121094s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.0222933292388916s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.022904396057128906s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.015846967697143555s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.02271103858947754s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.015265226364135742s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.024161815643310547s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.02768731117248535s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.024472951889038086s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.016748666763305664s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.0232698917388916s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.021200180053710938s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.028403759002685547s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.23419404029846191s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.019277095794677734s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.015353202819824219s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01826643943786621s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.016312837600708008s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01564502716064453s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 13.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.036849021911621094s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.023574352264404297s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.018767118453979492s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 1.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.026404142379760742s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 12.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.027141571044921875s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.049437522888183594s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.030611515045166016s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.027759552001953125s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.021111249923706055s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01595282554626465s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.025805950164794922s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014637231826782227s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.02383732795715332s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014676570892333984s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014187812805175781s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01730060577392578s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014141082763671875s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014956474304199219s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.018136024475097656s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.03102564811706543s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.022748947143554688s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.017655372619628906s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01274561882019043s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.015255212783813477s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.015094995498657227s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013244152069091797s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012411832809448242s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 1.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014088869094848633s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.02981710433959961s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.021213293075561523s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.04655742645263672s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.0357813835144043s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01931476593017578s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01755523681640625s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.02600860595703125s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.019560813903808594s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.021528244018554688s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.03542208671569824s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.020949363708496094s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01842808723449707s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01928997039794922s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.04137468338012695s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.018821001052856445s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.04123234748840332s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.0671849250793457s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.030847549438476562s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.05328106880187988s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.052748680114746094s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.046740055084228516s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.021973371505737305s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.018472909927368164s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.019650697708129883s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.030768394470214844s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.0415186882019043s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.030772686004638672s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.02564096450805664s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.025908946990966797s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.03837251663208008s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.03665447235107422s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.018778562545776367s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.028120040893554688s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.030758142471313477s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.031816720962524414s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.023900747299194336s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.02019047737121582s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.02112412452697754s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.018025875091552734s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01839613914489746s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01866316795349121s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.02051687240600586s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.021750688552856445s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.018979787826538086s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.020780086517333984s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.016779661178588867s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.02080988883972168s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.02567601203918457s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.019707679748535156s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.020713329315185547s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.02038288116455078s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014571189880371094s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01360940933227539s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.02123713493347168s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.017121076583862305s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.016301631927490234s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 106.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.020774126052856445s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 8.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.018003463745117188s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 49.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.017836809158325195s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 70.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.015432357788085938s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 33.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01572275161743164s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 196.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013259649276733398s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 229.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.018262624740600586s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 75.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014736413955688477s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 105.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013649940490722656s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014280557632446289s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 150.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.018524885177612305s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.015031099319458008s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.015408754348754883s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.015765666961669922s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 204.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.017719268798828125s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 339.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013957500457763672s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 476.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014935970306396484s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 511.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013138294219970703s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 354.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.016231298446655273s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 224.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013425350189208984s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 281.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012870550155639648s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013137102127075195s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 3.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.015511035919189453s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013632535934448242s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014008760452270508s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014062881469726562s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 5.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.017299652099609375s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012620687484741211s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014940261840820312s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014672040939331055s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.017683982849121094s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.015179634094238281s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01583719253540039s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.015027999877929688s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01488041877746582s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01438593864440918s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.015957117080688477s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.015465021133422852s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014503240585327148s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01388096809387207s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013768434524536133s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013685941696166992s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014045953750610352s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013476848602294922s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013881206512451172s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.016750812530517578s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013756513595581055s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013515710830688477s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.017302274703979492s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.015264272689819336s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 1.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013661623001098633s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.016661405563354492s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014070272445678711s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.014240264892578125s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012719869613647461s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01331019401550293s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012391090393066406s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012308597564697266s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012568473815917969s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 27.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012626886367797852s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 644.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013225555419921875s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 24733.0
+03-03 17:49 sensors.live_feed INFO     Pixels changed
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.024547815322875977s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 56353.0
+03-03 17:49 sensors.live_feed INFO     Pixels changed
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.031056880950927734s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 64427.0
+03-03 17:49 sensors.live_feed INFO     Pixels changed
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.023717641830444336s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 45655.0
+03-03 17:49 sensors.live_feed INFO     Pixels changed
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.024993419647216797s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 77418.0
+03-03 17:49 sensors.live_feed INFO     Pixels changed
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.030765771865844727s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 86630.0
+03-03 17:49 sensors.live_feed INFO     Pixels changed
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.022951364517211914s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 64120.0
+03-03 17:49 sensors.live_feed INFO     Pixels changed
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.026033878326416016s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 100193.0
+03-03 17:49 sensors.live_feed INFO     Pixels changed
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.026226520538330078s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 72223.0
+03-03 17:49 sensors.live_feed INFO     Pixels changed
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.022523880004882812s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 108717.0
+03-03 17:49 sensors.live_feed INFO     Pixels changed
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.024234771728515625s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 97587.0
+03-03 17:49 sensors.live_feed INFO     Pixels changed
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.02817988395690918s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 52008.0
+03-03 17:49 sensors.live_feed INFO     Pixels changed
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.02270674705505371s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 57852.0
+03-03 17:49 sensors.live_feed INFO     Pixels changed
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.02528858184814453s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 27271.0
+03-03 17:49 sensors.live_feed INFO     Pixels changed
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.02600550651550293s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 18986.0
+03-03 17:49 sensors.live_feed INFO     Pixels changed
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.022296667098999023s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 6528.0
+03-03 17:49 sensors.live_feed INFO     Pixels changed
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.024367094039916992s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 3157.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01582932472229004s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012650489807128906s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012087583541870117s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011954545974731445s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012125015258789062s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011847257614135742s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012018203735351562s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012044668197631836s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012110710144042969s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011866092681884766s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012044668197631836s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011796712875366211s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011941194534301758s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011987686157226562s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012071371078491211s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011929035186767578s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011955499649047852s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011821508407592773s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01193690299987793s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012737035751342773s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011927366256713867s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01166081428527832s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011870384216308594s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011966466903686523s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01203298568725586s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01167440414428711s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012091398239135742s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011698484420776367s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011983394622802734s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01180887222290039s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012410879135131836s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012130260467529297s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011889934539794922s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011683225631713867s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.018299102783203125s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012065887451171875s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012056350708007812s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011604070663452148s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012043476104736328s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011890411376953125s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012058258056640625s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011681079864501953s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011989116668701172s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012186765670776367s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012098073959350586s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011661291122436523s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011906147003173828s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01178431510925293s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011991739273071289s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011695146560668945s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012064456939697266s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011754751205444336s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011955976486206055s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012043237686157227s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012897968292236328s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012105703353881836s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011990785598754883s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011587381362915039s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01210927963256836s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011841058731079102s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012146949768066406s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011562347412109375s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011842012405395508s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011654853820800781s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012035131454467773s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011663675308227539s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012101888656616211s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01196742057800293s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013026952743530273s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011796712875366211s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011997699737548828s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011774539947509766s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011907339096069336s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011637449264526367s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011965274810791016s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012446165084838867s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011999368667602539s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011560916900634766s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01202082633972168s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012256622314453125s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011955738067626953s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01182699203491211s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011893749237060547s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011812448501586914s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01236867904663086s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01160120964050293s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01194906234741211s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011767864227294922s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011919736862182617s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011813163757324219s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011999130249023438s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012090682983398438s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012071847915649414s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011640787124633789s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012012243270874023s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012181520462036133s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011960983276367188s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011490345001220703s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011823892593383789s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011642932891845703s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012112855911254883s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011599540710449219s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01196908950805664s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012424468994140625s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012009620666503906s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011716604232788086s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012070417404174805s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011821269989013672s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012139320373535156s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011642217636108398s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012013673782348633s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012005805969238281s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011878252029418945s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011596441268920898s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012048006057739258s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012259721755981445s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013052940368652344s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011609792709350586s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012054443359375s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011910200119018555s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012165546417236328s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011618614196777344s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011884927749633789s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011812686920166016s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012023687362670898s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011656522750854492s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011920690536499023s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012011289596557617s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011965751647949219s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01174783706665039s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011907100677490234s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011817455291748047s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011914968490600586s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01159214973449707s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012174606323242188s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011668920516967773s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01235198974609375s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01170659065246582s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011920928955078125s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012169599533081055s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011845111846923828s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011759757995605469s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01200556755065918s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011851072311401367s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012176990509033203s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011657238006591797s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011919260025024414s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011692285537719727s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01204824447631836s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011787891387939453s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013998031616210938s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012004375457763672s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01187276840209961s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01191401481628418s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011969804763793945s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012040376663208008s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012031793594360352s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012380599975585938s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011881351470947266s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011853933334350586s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011960268020629883s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011621713638305664s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012027978897094727s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012172460556030273s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012189149856567383s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011618375778198242s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01191568374633789s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011677026748657227s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01190495491027832s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01169729232788086s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011793136596679688s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011801004409790039s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011773347854614258s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011554479598999023s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012115240097045898s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012132644653320312s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011853218078613281s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011687278747558594s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01201176643371582s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012011289596557617s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011906623840332031s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011674880981445312s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011848688125610352s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011683464050292969s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011922597885131836s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011643409729003906s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012024879455566406s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011908531188964844s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01257014274597168s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011743545532226562s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011863231658935547s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011882781982421875s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012729644775390625s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011780023574829102s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012085199356079102s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011877775192260742s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012026548385620117s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01170659065246582s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.013170480728149414s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012402772903442383s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012094497680664062s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011948585510253906s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012079000473022461s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012133598327636719s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012227058410644531s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011806488037109375s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012083053588867188s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.011795520782470703s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012135744094848633s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01214599609375s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.012465238571166992s
+03-03 17:49 sensors.live_feed INFO     no. of pixels_changed: 0.0
+03-03 17:49 sensors.live_feed INFO     Time taken to process frame: 0.01212930679321289s

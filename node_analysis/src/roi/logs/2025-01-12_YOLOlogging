@@ -1,0 +1,1 @@
+INFO:models.YOLOmodel:00:16:16.562617 Detected object book with confidence 0.2629566192626953 at tensor([206.3585,  37.6722, 644.7711, 480.5468])

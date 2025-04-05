@@ -23,8 +23,8 @@ class Shed_state:
     # alert_status = None
     
     # Shed detections
-    person_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0.3)
-    bike_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0.3)
+    person_tracker = None
+    bike_tracker = None
     status = None
     history = {}
     

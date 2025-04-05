@@ -1,0 +1,7 @@
+# (x,y)
+test_1:
+  line_1:
+    direction: right
+    points:
+    - [480, 0]
+    - [480, 720]

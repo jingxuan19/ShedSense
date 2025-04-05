@@ -97,8 +97,8 @@ def loi_detection(frame, model, Shed_state, borders):
     Shed_state.history_update(person_measured, False)
     Shed_state.history_update(bike_measured, True)
     
-    cv2.putText(frame, f"people: {Tracking_history.person_in}", (0,25), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 3)  
-    cv2.putText(frame, f"bikes: {Tracking_history.person_in}", (0,50), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 3)  
+    # cv2.putText(frame, f"people: {Tracking_history.person_in}", (0,25), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 3)  
+    # cv2.putText(frame, f"bikes: {Tracking_history.person_in}", (0,50), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 3)  
 
         
     return frame
