@@ -43,7 +43,7 @@ def main(is_cpu, recorded_path):
     camera1_thread.start()
     camera1_borders = load_lines("test_1")
     
-
+    
     try:
         while True:
             schedule.run_pending()
@@ -67,6 +67,9 @@ def main(is_cpu, recorded_path):
             else:
                 shed_state.history_update({}, False)
                 shed_state.history_update({}, True)
+                
+            # Camera 2 handler
+            
 
     except KeyboardInterrupt:
         logger.warning("Node thread: Keyboard interrupt, releasing resources")
