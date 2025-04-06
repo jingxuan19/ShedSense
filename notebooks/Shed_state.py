@@ -1,4 +1,3 @@
-import logging
 import datetime
 import json
 # import numpy as np
@@ -32,12 +31,6 @@ class Shed_state:
         
         self.person_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0.3)
         self.bike_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0.3)
-        
-        self.logger = logging.getLogger(__name__)
-        handler = logging.FileHandler(f"/home/shedsense1/ShedSense/node/logs/{datetime.date.today()}")
-                    
-        self.logger.setLevel(logging.INFO)
-        self.logger.addHandler(handler)
         
     def history_update(self, measurements, bike_flag):
         history_copy = self.history.copy()

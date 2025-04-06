@@ -1,7 +1,5 @@
 import cv2
 import numpy as np
-import logging
-import datetime
 from Border import Flow_status
 # import yaml
 # from loi.detection.masking import masking
@@ -90,8 +88,7 @@ def loi_detection(frame, model, Shed_state, borders):
                 if flow_status is Flow_status.IN:
                     Shed_state.status["people"] += 1
                 elif flow_status is Flow_status.OUT:
-                    if Shed_state.status["people"] > 0:
-                        Shed_state.status["people"] -= 1
+                    Shed_state.status["people"] -= 1
         
         elif id in bike_measured:            
             cv2.line(frame, Shed_state.history[id]["center"].astype(np.int64), bike_measured[id].astype(np.int64), (255, 0, 0), 2)            
@@ -100,8 +97,7 @@ def loi_detection(frame, model, Shed_state, borders):
                 if flow_status is Flow_status.IN:
                     Shed_state.status["bikes"] += 1
                 elif flow_status is Flow_status.OUT:
-                    if Shed_state.status["bikes"] > 0:
-                        Shed_state.status["bikes"] -= 1
+                    Shed_state.status["bikes"] -= 1
 
     Shed_state.history_update(person_measured, False)
     Shed_state.history_update(bike_measured, True)
