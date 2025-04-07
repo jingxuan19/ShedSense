@@ -28,7 +28,10 @@ class MQTTServerClient:
         self.status = None
                 
         self.client = mqtt_client.Client()
-        self.client.tls_set(ca_certs=config["ca_cert"], certfile=config["certfile"], keyfile=config["keyfile"])
+        # self.client.tls_set(ca_certs=config["ca_cert"], certfile=config["certfile"], keyfile=config["keyfile"])
+        
+        # self.client.tls_set()
+        # self.client.username_pw_set(username=config["username"], password=config["password"])
         
         self.client.on_connect = self.on_connect
         self.client.on_message = self.on_message        

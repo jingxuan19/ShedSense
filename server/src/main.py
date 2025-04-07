@@ -17,11 +17,11 @@ def main():
             #     video = cv2.VideoWriter(fr"server\data\recordings\{datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.mp4", cv2.VideoWriter_fourcc(*"mp4v"), 1, (frame.shape[1], frame.shape[0]))
                 
             # video.write(frame)
-        if Server_MQTT_client.annotated_frame is not None:
-            cv2.imshow("Annotated", Server_MQTT_client.annotated_frame)
+        # if Server_MQTT_client.annotated_frame is not None:
+        #     cv2.imshow("Annotated", Server_MQTT_client.annotated_frame)
         
-        if Server_MQTT_client.filtered_frame is not None:
-            cv2.imshow("Filtered", Server_MQTT_client.filtered_frame)
+        # if Server_MQTT_client.filtered_frame is not None:
+        #     cv2.imshow("Filtered", Server_MQTT_client.filtered_frame)
             
         if Server_MQTT_client.status is not None:
             print(Server_MQTT_client.status)

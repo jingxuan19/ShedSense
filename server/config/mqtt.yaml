@@ -1,5 +1,6 @@
 broker: test.mosquitto.org
-port: 8884
+# broker: 192.168.0.164
+port: 1883
 
 topics: 
   - "ShedSense/node/frame"
@@ -11,5 +12,8 @@ topics:
 ca_cert: C:\Users\tanji\OneDrive\Cambridge\2\Project\MQTT_certs\mosquitto.org.crt
 certfile: C:\Users\tanji\OneDrive\Cambridge\2\Project\MQTT_certs\client.crt
 keyfile: C:\Users\tanji\OneDrive\Cambridge\2\Project\MQTT_certs\client.key
+
+username: server
+password: C@mbr1dge
 
 # payload: {img, timestamp}
