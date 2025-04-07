@@ -4,10 +4,12 @@ import datetime
 
 class YOLOmodel:
     def __init__(self, is_cpu: bool):
-        if is_cpu:
-            self.model = YOLO("/home/shedsense1/ShedSense/node/src/models/yolov10n.pt", task="detect")
-        else:
-            self.model = YOLO("/home/shedsense1/ShedSense/node/src/models/yolov10n_saved_model/yolov10n_full_integer_quant_edgetpu.tflite", task="detect")
+        # if is_cpu:
+        #     self.model = YOLO("/home/shedsense1/ShedSense/node/src/models/yolov10n.pt", task="detect")
+        # else:
+        #     self.model = YOLO("/home/shedsense1/ShedSense/node/src/models/yolov10n_saved_model/yolov10n_full_integer_quant_edgetpu.tflite", task="detect")
+        self.model = YOLO("/home/shedsense1/ShedSense/node/src/models/yolov10n_saved_model/yolov10n_float32.tflite", task="detect")
+
         
         self.logger = logging.getLogger(__name__)
         self.handler = logging.FileHandler(f"/home/shedsense1/ShedSense/node/logs/{datetime.date.today()}")

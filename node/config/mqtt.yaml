@@ -1,5 +1,6 @@
 broker: test.mosquitto.org
-port: 8884
+# port: 8884
+port: 1883
 
 topics: 
   - "ShedSense/node/frame"
