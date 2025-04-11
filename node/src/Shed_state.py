@@ -27,6 +27,7 @@ class Shed_state:
     bike_tracker = None
     status = None
     history = {}
+    lots = None
     
     def __init__(self):
         self.Node_MQTT_Client = MQTTPiClient()        
@@ -91,10 +92,12 @@ class Shed_state:
         _, frame = cv2.imencode('.jpeg', frame)
         self.annotated_frame = frame.tobytes()
           
-    
     def publish_shed_state(self):
-        self.Node_MQTT_Client.publish("ShedSense/node/annotated_frame", self.annotated_frame)
+        # self.Node_MQTT_Client.publish("ShedSense/node/annotated_frame", self.annotated_frame)
         self.Node_MQTT_Client.publish("ShedSense/node/status", json.dumps(self.status))
+        if (self.lots is None) and (self.Node_MQTT_Client.lots is not None):
+            self.lots = self.Node_MQTT_Client.lots
+            print(self.lots)
         # self.Node_MQTT_Client.publish("ShedSense/node/alert", self.alert_status)
         
  

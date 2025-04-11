@@ -43,6 +43,8 @@ def main(is_cpu, recorded_path):
     camera1_thread.start()
     camera1_borders = load_lines("test_1")
     
+    # shed_state.Node_MQTT_Client.client.loop_start()
+    
     try:
         while True:
             schedule.run_pending()
@@ -77,6 +79,7 @@ def main(is_cpu, recorded_path):
         shutdown_event.set()
         camera1_thread.join()
         camera1_frame_buffer.queue.clear()
+        shed_state.Node_MQTT_Client.publish("ShedSense/node/shutdown", str(datetime.datetime.now().time()))
         
 
 if __name__ == "__main__":
