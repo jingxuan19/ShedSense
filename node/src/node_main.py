@@ -43,10 +43,11 @@ def main(is_cpu, recorded_path):
     camera1_thread.start()
     camera1_borders = load_lines("test_1")
     
-    
     try:
         while True:
             schedule.run_pending()
+            shed_state.Node_MQTT_Client.client.loop()
+
             # Camera 1 handler
             if not camera1_frame_buffer.empty():
                 logger.info("Detection triggered")

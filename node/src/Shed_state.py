@@ -40,6 +40,7 @@ class Shed_state:
                     
         self.logger.setLevel(logging.INFO)
         self.logger.addHandler(handler)
+               
         
     def history_update(self, measurements, bike_flag):
         history_copy = self.history.copy()

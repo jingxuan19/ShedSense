@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import logging
 import datetime
-from loi.detection.temporal_tracking.tracking_history import Tracking_history
+# from loi.detection.temporal_tracking.tracking_history import Tracking_history
 from loi.detection.Border import Flow_status
 # import yaml
 # from loi.detection.masking import masking

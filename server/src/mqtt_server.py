@@ -68,7 +68,7 @@ class MQTTServerClient:
         elif msg.topic == "ShedSense/node/filtered_frame":
             self.filtered_frame = cv2.imdecode(np.frombuffer(msg.payload, dtype=np.uint8), cv2.IMREAD_COLOR)
             self.logger.info("Received filtered frame")     
-            
+                    
                     
     def publish(self, topic, payload):
         return_code = self.client.publish(topic, payload)
