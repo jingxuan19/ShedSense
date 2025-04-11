@@ -11,7 +11,10 @@ def test_mqtt(payload="HELLO"):
         config = yaml.safe_load(f)
     
     for topic in config["topics"]:
-        client.publish(topic, payload)
-        print(f"published {payload} to {topic}")
+        result = client.publish(topic, payload)
+        if result == 0:
+            print(f"published {payload} to {topic}")
+        else:
+            print("failed to send payload")
         
 test_mqtt()

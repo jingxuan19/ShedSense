@@ -90,8 +90,9 @@ def live_feed(shutdown_event, is_recorded, frame_buffer):
         
         _, filter_frame = cv2.threshold(frame_difference, 30, 255, cv2.THRESH_BINARY)
         
-        _, payload = cv2.imencode('.jpeg', filter_frame)
-        Node_MQTT_client.publish("ShedSense/node/filtered_frame", payload.tobytes())
+        # Send Filter Frame
+        # _, payload = cv2.imencode('.jpeg', filter_frame)
+        # Node_MQTT_client.publish("ShedSense/node/filtered_frame", payload.tobytes())
         
         pixels_changed = np.sum(filter_frame)/255
         logger.info(f"no. of pixels_changed: {pixels_changed}")

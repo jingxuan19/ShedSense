@@ -8,6 +8,8 @@ import datetime
 class MQTTPiClient:    
     subscribed_msg = None
     
+    lots = None
+    
     def __init__(self):       
         self.logger = logging.getLogger(__name__)
         self.handler = logging.FileHandler(f"/home/shedsense1/ShedSense/node/logs/{datetime.date.today()}")
@@ -24,8 +26,12 @@ class MQTTPiClient:
         # self.client.tls_set(ca_certs=config["ca_cert"], certfile=config["cert_file"], keyfile=config["key"])
         
         self.client.on_connect = self.on_connect
+        self.client.on_message = self.on_message
         
         self.client.connect(self.broker, self.port)
+        
+        for topic in config["to_subscribe"]:
+            self.client.subscribe(topic)   
         
     def on_connect(self, client, user_data, flags, reason_code):
         if reason_code == 0:
@@ -37,7 +43,9 @@ class MQTTPiClient:
         
     def on_message(self, client, user_data, msg):
         print("RECEIVED")
-        self.subscribed_msg = msg.payload
+        if msg.topic == "ShedSense/server/initialise_lots":
+            self.lots = msg.payload
+            self.logger.info(f"Recevied lots: {self.lots}")  
      
     def publish(self, topic, payload):
         return_code = self.client.publish(topic, payload)
