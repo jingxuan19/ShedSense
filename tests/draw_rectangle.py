@@ -1,7 +1,6 @@
 import numpy as np
 import cv2 as cv
 import json
-import threading
 
 def inside_rect_index(x, y, pts):
     for i, [x1,x2,y1,y2, _] in enumerate(pts):
@@ -29,16 +28,9 @@ def mouse_callback(event,x,y,flags,param):
             cv.rectangle(mask_uncomitted,(ix,iy),(x,y),color,-1)
 
     elif event == cv.EVENT_LBUTTONUP:
-        if drawing:
-            drawing = False
-            if (abs(x-ix) > 1) and (abs(y-iy) > 1):
-                if ix > x:
-                    ix, x = x, ix
-                if iy > y:
-                    iy, y = y, iy
-                
-                cv.rectangle(mask,(ix,iy),(x,y),color,-1)
-                bike_lot_pts.append([ix,x,iy,y, color])
+        drawing = False
+        cv.rectangle(mask,(ix,iy),(x,y),color,-1)
+        bike_lot_pts.append([ix,x,iy,y, color])
         # cv.rectangle(img_copy,(ix,iy),(x,y),(0,255,0),-1)
         
     elif event == cv.EVENT_RBUTTONDOWN:
@@ -46,24 +38,22 @@ def mouse_callback(event,x,y,flags,param):
     
     elif event == cv.EVENT_LBUTTONDBLCLK:
         index = inside_rect_index(x, y, bike_lot_pts)
-        if index is not None:
+        if index:
             bike_lot_pts.pop(index)
-            # print(bike_lot_pts)
-            
             mask = np.zeros_like(initial_img)
             for x1,x2,y1,y2, c in bike_lot_pts:
                 cv.rectangle(mask, (x1, y1), (x2, y2), c, -1)
                 
-def start_lot_drawing(MQTTClient, img):
+def start_lot_drawing(MQTTClient, initial_img):
     print("Starting lot drawing")
-    global ix,iy,drawing, mask, mask_uncomitted, bike_lot_pts, is_occupied, initial_img
+    global ix,iy,drawing, mask, mask_uncomitted, color, bike_lot_pts, is_occupied
     
-    drawing = False
+    drawing = False # true if mouse is pressed
     is_occupied = False
     ix,iy = -1,-1
-    initial_img = np.copy(img)
                             
-    mask = np.zeros_like(initial_img, dtype=np.uint8)
+    initial_img = np.zeros((512,512,3), np.uint8)
+    mask = np.zeros_like(initial_img)
     bike_lot_pts = []
 
     cv.namedWindow('Initialise bike lots')

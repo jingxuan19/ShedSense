@@ -4,7 +4,6 @@ import logging
 import datetime
 import cv2
 import numpy as np
-import threading
 
 class MQTTServerClient:
     frame = None
@@ -14,8 +13,6 @@ class MQTTServerClient:
     status = None
     
     client = None
-    
-    reset_flag = False    
     
     def __init__(self):
         logging.basicConfig(filename=f"C:/Users/tanji/OneDrive/Cambridge/2/Project/ShedSense/server/logs/{datetime.date.today()}", level=logging.INFO)        
@@ -41,7 +38,7 @@ class MQTTServerClient:
                 
         self.client.connect(self.broker, self.port)
         
-        for topic in config["to_subscribe"]:
+        for topic in config["topics"]:
             self.client.subscribe(topic)    
         
         
@@ -71,18 +68,6 @@ class MQTTServerClient:
         elif msg.topic == "ShedSense/node/filtered_frame":
             self.filtered_frame = cv2.imdecode(np.frombuffer(msg.payload, dtype=np.uint8), cv2.IMREAD_COLOR)
             self.logger.info("Received filtered frame")     
-        
-        elif msg.topic == "ShedSense/node/shutdown":
-            self.reset()
-            self.logger.info("Reset state")
-            
-    def reset(self):
-        self.frame = None
-        self.annotated_frame = None
-        self.filtered_frame = None
-        self.status = None
-        
-        self.reset_flag = True
                     
                     
     def publish(self, topic, payload):
