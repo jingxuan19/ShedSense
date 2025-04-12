@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-def loi_detection(frame, model, Shed_state):
+def roi_detection(frame, model, Shed_state):
     """Perform ROI detection of a static frame. The function should be able to determine which lot is taken.
         Functionality for occupancy and anomaly detection should also be used.
 
