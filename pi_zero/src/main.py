@@ -9,7 +9,7 @@ import numpy as np
 import datetime
 # from utils.sort import *
 
-CAMERA_ID = "test_1"
+CAMERA_ID = "entrance"
 
 logger = logging.getLogger(__name__)
 handler = logging.FileHandler(f"/home/shedsense1/ShedSense/node/logs/{datetime.date.today()}")

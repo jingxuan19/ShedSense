@@ -2,11 +2,14 @@ from paho.mqtt import client as mqtt_client
 import yaml
 import logging
 import datetime
+import cv2
+import numpy as np
+import queue
 
 # TODO: Autoreconnect, polish up code for server and pi for multiple topics subscription, message handler
 
 class MQTTPiClient:    
-    subscribed_msg = None
+    cam_1_frame_buffer = queue.Queue(maxsize=500)
     
     lots = None
     
@@ -46,6 +49,13 @@ class MQTTPiClient:
         if msg.topic == "ShedSense/server/initialise_lots":
             self.lots = msg.payload
             self.logger.info(f"Recevied lots: {self.lots}")  
+
+        elif msg.topic == "ShedSense/pi_zero/frame":
+            if self.cam_1_frame_buffer.full():
+                self.cam_1_frame_buffer.get()
+            frame = cv2.imdecode(np.frombuffer(msg.payload, dtype=np.uint8), cv2.IMREAD_COLOR)
+            self.cam_1_frame_buffer.put(frame)
+
      
     def publish(self, topic, payload):
         return_code = self.client.publish(topic, payload)

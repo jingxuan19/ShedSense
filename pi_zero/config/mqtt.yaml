@@ -1,16 +1,16 @@
 broker: test.mosquitto.org
-port: 8884
+# port: 8884
+port: 1883
 
-topics: 
-  - "ShedSense/node/frame"
-  - "ShedSense/node/status"
-  - "ShedSense/node/annotated_frame"
-  - "ShedSense/node/filtered_frame"
+to_publish: 
+  - "ShedSense/pi_zero/frame"
+  # - "ShedSense/pi_zero/shutdown"
 
+to_subscribe:
 
-ca_cert: /home/shedsense1/Desktop/certs/mosquitto.org.crt
-cert_file: /home/shedsense1/Desktop/certs/client.crt
-key: /home/shedsense1/Desktop/certs/client.key
+# ca_cert: /home/shedsense1/Desktop/certs/mosquitto.org.crt
+# cert_file: /home/shedsense1/Desktop/certs/client.crt
+# key: /home/shedsense1/Desktop/certs/client.key
 # payload: {img, timestamp}
 
 # publisher topics

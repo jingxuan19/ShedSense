@@ -14,6 +14,7 @@ from sensors.live_feed import live_feed
 from models.YOLO_model import YOLOmodel
 # from utils.sort import Sort
 from loi.detection.loi_detection import loi_detection
+from roi.detection.roi_detection import roi_detection
 
 def main(is_cpu, recorded_path):
     logging.basicConfig(level=logging.INFO,
@@ -36,32 +37,46 @@ def main(is_cpu, recorded_path):
     Yolo_model = YOLOmodel(is_cpu)
     
     # Camera 1 setup    
-    shutdown_event = threading.Event()
+    shutdown_event_cam_1 = threading.Event()
     
-    camera1_frame_buffer = queue.Queue(maxsize=500)
-    camera1_thread = threading.Thread(target=live_feed, args=(shutdown_event, recorded_path, camera1_frame_buffer))
+    camera1_thread = threading.Thread(target=live_feed, args=(shutdown_event_cam_1, recorded_path, shed_state.Node_MQTT_Client.cam_1_frame_buffer))
     camera1_thread.start()
     camera1_borders = load_lines("test_1")
     
     # shed_state.Node_MQTT_Client.client.loop_start()
+    # Camera 2 setup
+    shutdown_event_cam_2 = threading.Event()
+    
+    camera2_frame_buffer = queue.Queue(maxsize=500)
+    camera2_thread = threading.Thread(target=live_feed, args=(shutdown_event_cam_2, recorded_path, camera2_frame_buffer))
+    camera2_thread_start_time = None
+    camera2_keep_alive_time = 0
+    
     
     try:
         while True:
             schedule.run_pending()
             shed_state.Node_MQTT_Client.client.loop()
+            
+            # check if lots is sent from server to node
+            if (shed_state.lots is None) and (shed_state.Node_MQTT_Client.lots is not None):
+                shed_state.lots = shed_state.Node_MQTT_Client.lots
+                print(shed_state.lots)
 
             # Camera 1 handler
-            if not camera1_frame_buffer.empty():
+            if not shed_state.Node_MQTT_Client.cam_1_frame_buffer.empty():
                 logger.info("Detection triggered")
                 start = time.time()
                 
-                print(f"Frames left in queue: {camera1_frame_buffer.qsize()}")
-                frame = camera1_frame_buffer.get()
+                print(f"Frames left in queue: {shed_state.Node_MQTT_Client.cam_1_frame_buffer.qsize()}")
+                frame = shed_state.Node_MQTT_Client.cam_1_frame_buffer.get()
                 annotated_frame = loi_detection(frame=frame, model=Yolo_model, Shed_state=shed_state, borders=camera1_borders)
-                shed_state.update_annotated_frame(annotated_frame)
                 
+                # This would be unnecessary if not debugging (not sending annotated frames), don't have to save
+                # shed_state.update_annotated_frame(annotated_frame)
                 # cv2.imshow("annotate", annotated_frame)
                 
+                # NOTE: Responsibility of this information would primarily be shifted to camera 2
                 shed_state.anomaly_detection(30) # how many frames
                 
                 end = time.time()
@@ -72,13 +87,27 @@ def main(is_cpu, recorded_path):
                 shed_state.history_update({}, True)
                 
             # Camera 2 handler
+            if shed_state.status["people"] > 0 and not camera2_thread.is_alive():
+                camera2_thread.start()
+                camera2_thread_start_time = time.time()
+            
+            if not camera2_frame_buffer.empty():
+                frame = camera2_frame_buffer.get()
+                roi_detection(frame)
+                
+            if shed_state.status["people"] == 0 and camera2_thread.is_alive():
+                if camera2_keep_alive_time != 0:
+                    if time.time() - camera2_keep_alive_time  >= 30:
+                        shutdown_event_cam_2.set()
+                else:
+                    camera2_keep_alive_time = time.time()
             
 
     except KeyboardInterrupt:
         logger.warning("Node thread: Keyboard interrupt, releasing resources")
-        shutdown_event.set()
+        shutdown_event_cam_1.set()
         camera1_thread.join()
-        camera1_frame_buffer.queue.clear()
+        shed_state.Node_MQTT_Client.cam_1_frame_buffer.queue.clear()
         shed_state.Node_MQTT_Client.publish("ShedSense/node/shutdown", str(datetime.datetime.now().time()))
         
 

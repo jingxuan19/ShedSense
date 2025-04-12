@@ -99,7 +99,7 @@ def live_feed(shutdown_event, is_recorded, frame_buffer):
         
         if pixels_changed > 5000:
             wakeup_time_left = 1 # How many more frames does it take before it decides that an event is over
-            logger.info(f"Pixels changed")
+            logger.info("Pixels changed")
         
         if wakeup_time_left > 0:
             frame = cv2.resize(frame, (640, 640))

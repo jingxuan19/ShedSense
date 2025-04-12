@@ -38,8 +38,8 @@ def loi_detection(frame, model, Shed_state, borders):
     else:
         bike_detections = np.array(bike_detections)
 
-    person_predictions = Shed_state.person_tracker.update(person_detections)
-    bike_predictions = Shed_state.bike_tracker.update(bike_detections)
+    person_predictions = Shed_state.cam1_person_tracker.update(person_detections)
+    bike_predictions = Shed_state.cam1_bike_tracker.update(bike_detections)
 
     # frame = result[0].plot()
     person_measured = {}
