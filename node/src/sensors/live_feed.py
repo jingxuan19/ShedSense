@@ -6,6 +6,8 @@ import json
 import numpy as np
 from mqtt.mqtt_pi import MQTTPiClient
 import datetime
+import socket
+import struct
 # from utils.sort import *
 
 CAMERA_ID = "test_1"
@@ -32,7 +34,17 @@ def live_feed(shutdown_event, is_recorded, frame_buffer):
         camera.configure(cam_config)
 
         camera.start()
-        
+    
+    # Socket for testing
+    server_socket = socket.socket()
+    server_socket.bind(('0.0.0.0', 8000))
+    server_socket.listen(0)
+    print("Waiting for connection...")
+    conn, addr = server_socket.accept()
+    print("Connected by", addr)
+    conn = conn.makefile('wb')
+    encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 90]
+    
    
     #MQTT setup
     Node_MQTT_client = MQTTPiClient()
@@ -56,9 +68,14 @@ def live_feed(shutdown_event, is_recorded, frame_buffer):
             
             
         # Publish frame
-        _, payload = cv2.imencode('.jpeg', frame)
-        # print(payload.dtype, payload.size)
-        Node_MQTT_client.publish("ShedSense/node/frame", payload.tobytes())
+        # _, payload = cv2.imencode('.jpeg', frame)
+        # # print(payload.dtype, payload.size)
+        # Node_MQTT_client.publish("ShedSense/node/frame", payload.tobytes())
+        _, img_encoded = cv2.imencode('.jpg', frame, encode_param)
+        data = frame.tobytes()
+        size = len(data)
+        conn.write(struct.pack('<L', size))
+        conn.write(data)
         
         # TODO: Undistort the frame
         

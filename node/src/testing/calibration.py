@@ -5,8 +5,20 @@ import time
 from picamera2 import Picamera2
 import datetime
 import yaml
+from mqtt_pi import MQTTPiClient
+import socket
+import struct
 
 def focus():
+    server_socket = socket.socket()
+    server_socket.bind(('0.0.0.0', 8000))
+    server_socket.listen(0)
+    print("Waiting for connection...")
+    conn, addr = server_socket.accept()
+    print("Connected by", addr)
+    conn = conn.makefile('wb')
+    encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 90]
+    
     try:
         camera = Picamera2()
         camera.stop()
@@ -16,22 +28,32 @@ def focus():
 
         camera.start()
         time.sleep(1)
-        
-        # Client = MQTTPiClient()
+                
+        Client = MQTTPiClient()
         video = cv2.VideoWriter("/home/shedsense1/Desktop/recordings/calibration_test.mp4", cv2.VideoWriter_fourcc(*"mp4v"), 15, (1280, 720))
         while True:
             frame = camera.capture_array("main")
             video.write(frame)
             
-            cv2.imshow("Focus test", frame)
-        #     _, frame = cv2.imencode('.jpeg', frame)
-        #     frame = frame.tobytes()   
-
-        #     Client.publish("ShedSense/node/frame", frame)
+            # cv2.imshow("Focus test", frame)
+            # _, frame = cv2.imencode('.jpeg', frame)
+            # frame = frame.tobytes()   
+            # Client.publish("ShedSense/node/frame", frame)
+            
+            _, img_encoded = cv2.imencode('.jpg', frame, encode_param)
+            data = img_encoded.tobytes()
+            size = len(data)
+            conn.write(struct.pack('<L', size))
+            conn.write(data)
+            
     except KeyboardInterrupt:
         camera.stop()
         video.release()
         cv2.destroyAllWindows
+    
+    finally:
+        conn.close()
+        server_socket.close()    
 
 def distortion_calibration():
     CHECKERBOARD = (7,7)
@@ -102,4 +124,51 @@ def undistort_test():
     cv2.destroyAllWindows()
     cap.release()
     video.release()
+
+def homography_test():
+    server_socket = socket.socket()
+    server_socket.bind(('0.0.0.0', 8000))
+    server_socket.listen(0)
+    print("Waiting for connection...")
+    conn, addr = server_socket.accept()
+    print("Connected by", addr)
+    conn = conn.makefile('wb')
+    encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 90]
     
+    try:
+        camera = Picamera2()
+        camera.stop()
+        cam_config = camera.create_video_configuration(main={"format": 'RGB888'})
+        cam_config["controls"]["FrameRate"] = 15
+        camera.configure(cam_config)
+
+        camera.start()
+        time.sleep(1)
+                
+        # Client = MQTTPiClient()
+        video = cv2.VideoWriter("/home/shedsense1/Desktop/recordings/calibration_test.mp4", cv2.VideoWriter_fourcc(*"mp4v"), 15, (1280, 720))
+        while True:
+            frame = camera.capture_array("main")
+            video.write(frame)
+            
+            # cv2.imshow("Focus test", frame)
+            # _, frame = cv2.imencode('.jpeg', frame)
+            # frame = frame.tobytes()   
+            # Client.publish("ShedSense/node/frame", frame)
+            
+            _, img_encoded = cv2.imencode('.jpg', frame, encode_param)
+            data = img_encoded.tobytes()
+            size = len(data)
+            conn.write(struct.pack('<L', size))
+            conn.write(data)
+            
+    except KeyboardInterrupt:
+        camera.stop()
+        video.release()
+        cv2.destroyAllWindows
+    
+    finally:
+        conn.close()
+        server_socket.close()    
+
+focus()
