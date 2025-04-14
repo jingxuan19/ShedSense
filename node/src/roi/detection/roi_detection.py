@@ -25,19 +25,21 @@ def roi_detection(frame, model, Shed_state):
     else:
         person_detections = np.array(person_detections)
 
-    person_predictions = Shed_state.cam2_person_tracker.update(person_detections)
-
-    # frame = result[0].plot()
-    person_measured = {}
+    person_predictions = Shed_state.cam2_person_tracker.update(person_detections) # xyxy id
     
-    for p in person_predictions:
-        c_x = p[0]+(p[2] - p[0])/2
-        c_y = p[1]+(p[3] - p[1])/2
-        person_measured[p[-1]] = np.array([c_x, c_y]) # person_id: center of bounding box TODO: convert this into 2D  this should prolly be done at the sensor
+    Shed_state.cam2_bike_lot_history_update(person_predictions)
+    
+    # # frame = result[0].plot()
+    # person_measured = {}
+    
+    # for p in person_predictions:
+    #     c_x = p[0]+(p[2] - p[0])/2
+    #     c_y = p[1]+(p[3] - p[1])/2
+    #     person_measured[p[-1]] = np.array([c_x, c_y]) # person_id: bounding box TODO: convert this into 2D  this should prolly be done at the sensor
         
-        int_p = p.astype(np.int64)
-        frame = cv2.rectangle(frame, (int_p[0], int_p[1]), (int_p[2], int_p[3]), (36, 255, 12), 1)
-        cv2.putText(frame, f"person id:{str(int_p[-1])}", (int_p[0], int_p[1]+10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
+    #     int_p = p.astype(np.int64)
+    #     frame = cv2.rectangle(frame, (int_p[0], int_p[1]), (int_p[2], int_p[3]), (36, 255, 12), 1)
+    #     cv2.putText(frame, f"person id:{str(int_p[-1])}", (int_p[0], int_p[1]+10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (36, 255, 12), 2)
     
 
 # def roi_detection(is_cpu: bool, camera):

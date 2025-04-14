@@ -37,10 +37,10 @@ def main(is_cpu, recorded_path):
     Yolo_model = YOLOmodel(is_cpu)
     
     # Camera 1 setup    
-    shutdown_event_cam_1 = threading.Event()
+    # shutdown_event_cam_1 = threading.Event()
     
-    camera1_thread = threading.Thread(target=live_feed, args=(shutdown_event_cam_1, recorded_path, shed_state.Node_MQTT_Client.cam_1_frame_buffer))
-    camera1_thread.start()
+    # camera1_thread = threading.Thread(target=live_feed, args=(shutdown_event_cam_1, recorded_path, shed_state.Node_MQTT_Client.cam_1_frame_buffer))
+    # camera1_thread.start()
     camera1_borders = load_lines("test_1")
     
     # shed_state.Node_MQTT_Client.client.loop_start()
@@ -99,14 +99,15 @@ def main(is_cpu, recorded_path):
                 if camera2_keep_alive_time != 0:
                     if time.time() - camera2_keep_alive_time  >= 30:
                         shutdown_event_cam_2.set()
+                        shed_state.cam2_lot_history = {}
                 else:
                     camera2_keep_alive_time = time.time()
             
 
     except KeyboardInterrupt:
         logger.warning("Node thread: Keyboard interrupt, releasing resources")
-        shutdown_event_cam_1.set()
-        camera1_thread.join()
+        # shutdown_event_cam_1.set()
+        # camera1_thread.join()
         shed_state.Node_MQTT_Client.cam_1_frame_buffer.queue.clear()
         shed_state.Node_MQTT_Client.publish("ShedSense/node/shutdown", str(datetime.datetime.now().time()))
         
