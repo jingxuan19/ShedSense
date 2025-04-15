@@ -59,14 +59,7 @@ def main(shutdown_event, is_recorded, frame_buffer):
                 # for recording purpose during testing
                 video = cv2.VideoWriter(f"/home/shedsense1/Desktop/recordings/{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.mp4", cv2.VideoWriter_fourcc(*"mp4v"), 15, (frame.shape[1], frame.shape[0]))
             video.write(frame)
-            
-        
-        _, payload = cv2.imencode('.jpeg', frame)
-        # print(payload.dtype, payload.size)
-
-        # Publish frame
-        Node_MQTT_client.publish("ShedSense/node/frame", payload.tobytes())
-        
+                   
         # Grayscale to calculate frame difference
         # 2 thresholds here, 1 is how much change per pixel to determine if the pixel changed.
         # The other is how many pixels much change to determine that we need to start recording
@@ -94,10 +87,11 @@ def main(shutdown_event, is_recorded, frame_buffer):
         if wakeup_time_left > 0:
             frame = cv2.resize(frame, (640, 640))
             
-            if frame_buffer.full():
-                frame_buffer.get()
-                
-            frame_buffer.put(frame)
+            # Publish frame        
+            _, payload = cv2.imencode('.jpeg', frame)
+            # print(payload.dtype, payload.size)
+            Node_MQTT_client.publish("ShedSense/pi_zero/frame", payload.tobytes())
+            
             wakeup_time_left -= 1
             
         prev_frame_grey = frame_grey
