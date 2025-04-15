@@ -31,10 +31,9 @@ def focus():
         time.sleep(1)
                 
         Client = MQTTPiClient()
-        video = cv2.VideoWriter("/home/shedsense1/Desktop/recordings/calibration_test.mp4", cv2.VideoWriter_fourcc(*"mp4v"), 15, (1280, 720))
+        video = cv2.VideoWriter("calibration_test.mp4", cv2.VideoWriter_fourcc(*"mp4v"), 15, (1280, 720))
         while True:
             frame = camera.capture_array("main")
-            video.write(frame)
             
             # cv2.imshow("Focus test", frame)
             # _, frame = cv2.imencode('.jpeg', frame)
@@ -46,6 +45,9 @@ def focus():
             size = len(data)
             conn.write(struct.pack('<L', size))
             conn.write(data)
+            
+            # video.write(frame)
+                
             
     except KeyboardInterrupt:
         camera.stop()
