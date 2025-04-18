@@ -10,6 +10,7 @@ class MQTTServerClient:
     frame = None
     annotated_frame = None
     filtered_frame = None
+    people_locations = None
     
     status = None
     
@@ -63,6 +64,7 @@ class MQTTServerClient:
         elif msg.topic == "ShedSense/node/status":
             self.status = msg.payload
             self.logger.info(f"Current status: {self.status}")        
+            self.people_locations = self.status["cam_2_people_locations"]
         
         elif msg.topic == "ShedSense/node/annotated_frame":
             self.annotated_frame = cv2.imdecode(np.frombuffer(msg.payload, dtype=np.uint8), cv2.IMREAD_COLOR)

@@ -40,9 +40,14 @@ def main():
         # if Server_MQTT_client.filtered_frame is not None:
         #     cv2.imshow("Filtered", Server_MQTT_client.filtered_frame)
             
-        if Server_MQTT_client.status is not None:
-            # print(Server_MQTT_client.status)
-            pass
+        if Server_MQTT_client.people_locations is not None:
+            top_down_img = np.ones((2000, 1000, 3), np.uint8)*255
+            for x, y, in Server_MQTT_client.people_locations:
+                cv2.circle(top_down_img, (int(x), int(y)), 10, (255, 65, 137), -1)
+            top_down_img = cv2.resize(top_down_img, (720, 1280))
+            top_down_img = cv2.rotate(top_down_img, cv2.ROTATE_90_COUNTERCLOCKWISE)   
+            cv2.imshow("Shed abstract view", top_down_img)
+            
               
         if cv2.waitKey(1) == ord('q'):
             break

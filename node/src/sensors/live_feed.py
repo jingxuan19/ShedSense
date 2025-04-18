@@ -68,8 +68,13 @@ def live_feed(shutdown_event, is_recorded, frame_buffer, K, D):
             
         
         # Undistort the frame
-        map1, map2 = cv2.fisheye.initUndistortRectifyMap(K, D, np.eye(3), K, (1280, 720), cv2.CV_16SC2)
+        scaled_K = K
+        scaled_K[2][2] = 1.0
+        
+        K2 = cv2.fisheye.estimateNewCameraMatrixForUndistortRectify(scaled_K, D, (1280, 720), np.eye(3), balance=1)
+        map1, map2 = cv2.fisheye.initUndistortRectifyMap(scaled_K, D, np.eye(3), K2, (1280, 720), cv2.CV_16SC2)
         frame = cv2.remap(frame, map1, map2, interpolation=cv2.INTER_LINEAR, borderMode=cv2.BORDER_CONSTANT)
+        
         
         # Publish frame
         # _, payload = cv2.imencode('.jpeg', frame)

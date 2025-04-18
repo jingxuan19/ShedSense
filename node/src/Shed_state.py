@@ -5,7 +5,8 @@ import json
 import cv2
 from enum import Enum
 from math import inf
-
+import yaml
+import numpy as np
 from mqtt.mqtt_pi import MQTTPiClient
 # from src.loi.detection.Border import Flow_status
 from utils.sort import Sort
@@ -35,17 +36,21 @@ class Shed_state:
 
     # cam 2
     cam2_person_tracker = None
+    homography_matrix = None
     cam2_lot_history = {}
     cam2_person_history = {}
     
     def __init__(self):
         self.Node_MQTT_Client = MQTTPiClient()        
-        self.status = {"people": 0, "bikes": 0, "alert": Alert_status.Clear}
+        self.status = {"people": 0, "bikes": 0, "alert": Alert_status.Clear, "cam_2_people_locations": {}}
         
         self.cam1_person_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0.3)
         self.cam1_bike_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0.3)
         
         self.cam2_person_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0.3)
+        with open("/home/shedsense1/ShedSense/node/config/calibration.py", "r") as f:
+            config = yaml.safe_load(f)
+        self.homography_matrix = config["H"] 
         
         self.logger = logging.getLogger(__name__)
         handler = logging.FileHandler(f"/home/shedsense1/ShedSense/node/logs/{datetime.date.today()}")
@@ -102,10 +107,20 @@ class Shed_state:
     
     
     def cam2_bike_lot_history_update(self, predictions):
-        # TODO: Update this based on homograhy
+        people_locations = []
         lot_index_with_people = []
         for x1, _, x2, y2, person_id in predictions:
-            xo, yo = x2-x1, y2
+            xo, yo = (x2-x1)/2+x1, y2
+            
+            # Homography
+            point = np.array([[[xo, yo]]], dtype=np.float64)
+            point = cv2.perspectiveTransform(point, self.homography_matrix)
+            xo, yo = point[0, 0, :]           
+            people_locations.append(point[0,0,:])
+            
+            if person_id not in self.cam2_person_history:
+                self.cam2_person_history[person_id] = []
+            self.cam2_person_history[person_id].append(point[0,0,:])
             
             # is the point in a lot?
             for id in self.lots:
@@ -122,7 +137,9 @@ class Shed_state:
                     self.cam2_lot_history[lot_index][person_id] = -inf
                     
             else:
-                self.cam2_lot_history[lot_index] = {person_id: 1}     
+                self.cam2_lot_history[lot_index] = {person_id: 1}   
+        
+        self.status["cam_2_people_locations"] = people_locations  
 
     
     def person_bike_matching(self, people_measurement, bike_measurement):

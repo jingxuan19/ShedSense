@@ -104,7 +104,7 @@ def main(is_cpu, recorded_path):
                 camera2_thread.start()
                 logger.info("Camera 2 active")
                 camera2_keep_alive_time = 0
-                camera2_active_time = time.time()
+                camera2_thread_start_time = time.time()
             
             if not camera2_frame_buffer.empty():
                 frame = camera2_frame_buffer.get()
@@ -114,7 +114,7 @@ def main(is_cpu, recorded_path):
                 if camera2_keep_alive_time != 0:
                     if time.time() - camera2_keep_alive_time  >= 30:
                         shutdown_event_cam_2.set()
-                        logger.info(f"Camera 2 shutting down, time active: {time.time()-camera2_active_time}")
+                        logger.info(f"Camera 2 shutting down, time active: {time.time()-camera2_thread_start_time}")
                         
                         shed_state.cam2_lot_history = {}
                 else:
