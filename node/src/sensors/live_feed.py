@@ -18,7 +18,7 @@ handler = logging.FileHandler(f"/home/shedsense1/ShedSense/node/logs/{datetime.d
 logger.setLevel(logging.INFO)
 logger.addHandler(handler)
 
-def live_feed(shutdown_event, is_recorded, frame_buffer):
+def live_feed(shutdown_event, is_recorded, frame_buffer, K, D):
     # is_recorded = "/home/shedsense1/Desktop/recordings/2025-02-21_09-33-10.mp4"
     if is_recorded:
         logger.info("Pulling stream from recording")
@@ -66,21 +66,22 @@ def live_feed(shutdown_event, is_recorded, frame_buffer):
                 video = cv2.VideoWriter(f"/home/shedsense1/Desktop/recordings/{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.mp4", cv2.VideoWriter_fourcc(*"mp4v"), 15, (frame.shape[1], frame.shape[0]))
             video.write(frame)
             
-            
+        
+        # Undistort the frame
+        map1, map2 = cv2.fisheye.initUndistortRectifyMap(K, D, np.eye(3), K, (1280, 720), cv2.CV_16SC2)
+        frame = cv2.remap(frame, map1, map2, interpolation=cv2.INTER_LINEAR, borderMode=cv2.BORDER_CONSTANT)
+        
         # Publish frame
         # _, payload = cv2.imencode('.jpeg', frame)
         # # print(payload.dtype, payload.size)
         # Node_MQTT_client.publish("ShedSense/node/frame", payload.tobytes())
-        _, img_encoded = cv2.imencode('.jpg', frame, encode_param)
+        # _, img_encoded = cv2.imencode('.jpg', frame, encode_param)
         data = frame.tobytes()
         size = len(data)
         conn.write(struct.pack('<L', size))
         conn.write(data)
         
-        # TODO: Undistort the frame
-        
-        
-        
+        # Send frame to buffer
         frame = cv2.resize(frame, (640, 640))
         
         if frame_buffer.full():

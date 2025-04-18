@@ -6,6 +6,7 @@ import cv2
 import time
 import datetime
 import logging
+import yaml
 # import time
 
 from Shed_state import Shed_state
@@ -45,10 +46,15 @@ def main(is_cpu, recorded_path):
     
     # shed_state.Node_MQTT_Client.client.loop_start()
     # Camera 2 setup
+    with open("/home/shedsense1/ShedSense/node/config/calibration.yaml", "r") as f:
+        calibration_config = yaml.safe_load(f)
+    camera_intrinsic_matrix = calibration_config["K"]
+    distortion_coeff = calibration_config["D"]
+    
     shutdown_event_cam_2 = threading.Event()
     
     camera2_frame_buffer = queue.Queue(maxsize=500)
-    camera2_thread = threading.Thread(target=live_feed, args=(shutdown_event_cam_2, recorded_path, camera2_frame_buffer))
+    camera2_thread = threading.Thread(target=live_feed, args=(shutdown_event_cam_2, recorded_path, camera2_frame_buffer, camera_intrinsic_matrix, distortion_coeff))
     camera2_thread_start_time = None
     camera2_keep_alive_time = 0
     
@@ -60,7 +66,14 @@ def main(is_cpu, recorded_path):
             
             # check if lots is sent from server to node
             if (shed_state.lots is None) and (shed_state.Node_MQTT_Client.lots is not None):
-                shed_state.lots = shed_state.Node_MQTT_Client.lots
+                shed_state.lots = {}
+                for i, lot in enumerate(shed_state.Node_MQTT_Client.lots):
+                    shed_state.lots[i] = {"coords": lot[:-1]}
+                    if lot[-1] == (0, 0, 255):
+                        shed_state.lots[i]["is_occupied": True]
+                    elif lot[-1] == (0, 255, 0):
+                        shed_state.lots[i]["is_occupied": False]
+                    
                 print(shed_state.lots)
 
             # Camera 1 handler
@@ -89,7 +102,9 @@ def main(is_cpu, recorded_path):
             # Camera 2 handler
             if shed_state.status["people"] > 0 and not camera2_thread.is_alive():
                 camera2_thread.start()
-                camera2_thread_start_time = time.time()
+                logger.info("Camera 2 active")
+                camera2_keep_alive_time = 0
+                camera2_active_time = time.time()
             
             if not camera2_frame_buffer.empty():
                 frame = camera2_frame_buffer.get()
@@ -99,6 +114,8 @@ def main(is_cpu, recorded_path):
                 if camera2_keep_alive_time != 0:
                     if time.time() - camera2_keep_alive_time  >= 30:
                         shutdown_event_cam_2.set()
+                        logger.info(f"Camera 2 shutting down, time active: {time.time()-camera2_active_time}")
+                        
                         shed_state.cam2_lot_history = {}
                 else:
                     camera2_keep_alive_time = time.time()

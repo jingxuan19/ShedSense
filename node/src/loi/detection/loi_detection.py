@@ -87,6 +87,7 @@ def loi_detection(frame, model, Shed_state, borders):
                 if flow_status is Flow_status.IN:
                     logger.info("Detected bike entering bike shed")
                     Shed_state.status["bikes"] += 1
+                    Shed_state.bike_in_flag = True
                 elif flow_status is Flow_status.OUT:
                     logger.info("Detected bike leaving bike shed")
                     if Shed_state.status["bikes"] > 0:

@@ -173,7 +173,7 @@ def homography_test():
         time.sleep(1)
                 
         # Client = MQTTPiClient()
-        video = cv2.VideoWriter("/home/shedsense1/Desktop/recordings/calibration_test.mp4", cv2.VideoWriter_fourcc(*"mp4v"), 15, (1280, 720))
+        video = cv2.VideoWriter("/home/shedsense1/Desktop/recordings/homography_test.mp4", cv2.VideoWriter_fourcc(*"mp4v"), 15, (1280, 720))
         while True:
             frame = camera.capture_array("main")
             video.write(frame)
@@ -281,9 +281,7 @@ def undistort_fisheye():
         cv2.imshow("undistort without cropping", dst)
         print(dst.shape)
         video.write(dst)
-        
-        
-                
+                        
         # crop the image
         # x, y, w, h = roi
         # dst = dst[y:y+h, x:x+w]

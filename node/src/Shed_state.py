@@ -4,6 +4,7 @@ import json
 # import numpy as np
 import cv2
 from enum import Enum
+from math import inf
 
 from mqtt.mqtt_pi import MQTTPiClient
 # from src.loi.detection.Border import Flow_status
@@ -23,6 +24,8 @@ class Shed_state:
     # alert_status = None
     
     # Shed detections
+    bike_in_flag = False
+    
     # cam 1
     cam1_person_tracker = None
     cam1_bike_tracker = None
@@ -33,6 +36,7 @@ class Shed_state:
     # cam 2
     cam2_person_tracker = None
     cam2_lot_history = {}
+    cam2_person_history = {}
     
     def __init__(self):
         self.Node_MQTT_Client = MQTTPiClient()        
@@ -70,6 +74,7 @@ class Shed_state:
         for id in measurements:
             if id not in self.history:
                 self.history[id] = {"center": measurements[id], "TTL": 20, "TIF": 0}
+                
                     
     def anomaly_detection(self, threshold):
         count = 0
@@ -95,57 +100,86 @@ class Shed_state:
         else:
             self.status["alert"] = Alert_status.Clear
     
+    
     def cam2_bike_lot_history_update(self, predictions):
-        history_copy = self.cam2_lot_history        
-        for x1,y1,x2,y2,_ in predictions:
-            lot_index, area = self.greatest_intersection_lot((x1,x2,y1,y2))
+        # TODO: Update this based on homograhy
+        lot_index_with_people = []
+        for x1, _, x2, y2, person_id in predictions:
+            xo, yo = x2-x1, y2
             
-            # NOTE: Area threshold here
-            if area > 10:
-                if lot_index in self.cam2_bike_lot_history:
-                    self.cam2_lot_history[lot_index]["TIF"] += 1
-                    self.cam2_lot_history[lot_index]["TTL"] = 21
+            # is the point in a lot?
+            for id in self.lots:
+                xl1, xl2 ,yl1, yl2 = self.lots[id]["coords"]
+                if (xo <= xl2) and (xo >= xl1):
+                    if (yo <= yl2) and (yo >= yl1):
+                        lot_index_with_people.append(id)
+             
+        for lot_index in lot_index_with_people:
+            if lot_index in self.cam2_lot_history:
+                self.cam2_lot_history[lot_index][person_id] += 1 
+                if self.cam2_lot_history[lot_index][person_id] > 20:
+                    self.lots[lot_index]["is_occupied"] = not self.lots[lot_index]["is_occupied"]
+                    self.cam2_lot_history[lot_index][person_id] = -inf
+                    
+            else:
+                self.cam2_lot_history[lot_index] = {person_id: 1}     
+
+    
+    def person_bike_matching(self, people_measurement, bike_measurement):
+        for p_id in people_measurement:
+            pass
+        
+            
+        # history_copy = self.cam2_lot_history        
+        # for x1,y1,x2,y2,_ in predictions:
+        #     lot_index, area = self.greatest_intersection_lot((x1,x2,y1,y2))
+            
+        #     # NOTE: Area threshold here
+        #     if area > 10:
+        #         if lot_index in self.cam2_bike_lot_history:
+        #             self.cam2_lot_history[lot_index]["TIF"] += 1
+        #             self.cam2_lot_history[lot_index]["TTL"] = 21
                     
                     
-                    # NOTE: Time spent in lot threshold here
-                    if self.cam2_lot_history[lot_index]["TIF"] > 20:
-                        if self.lots[lot_index][-1] == (0, 255, 0):
-                            self.lots[lot_index][-1] = (255, 0, 0)
-                        elif self.lots[lot_index][-1] == (255, 0, 0):
-                            self.lots[lot_index][-1] = (0, 255, 0)
+        #             # NOTE: Time spent in lot threshold here
+        #             if self.cam2_lot_history[lot_index]["TIF"] > 20:
+        #                 if self.lots[lot_index][-1] == (0, 255, 0):
+        #                     self.lots[lot_index][-1] = (255, 0, 0)
+        #                 elif self.lots[lot_index][-1] == (255, 0, 0):
+        #                     self.lots[lot_index][-1] = (0, 255, 0)
                     
-                else:
-                    self.cam2_lot_history[lot_index] = {"TTL": 21, "TIF": 0}
+        #         else:
+        #             self.cam2_lot_history[lot_index] = {"TTL": 21, "TIF": 0}
                     
-        for lot_index in history_copy:
-            self.cam2_lot_history[lot_index]["TTL"] -= 1
-            if self.cam2_lot_history[lot_index]["TTL"] == 0:
-                self.cam2_lot_history.pop(lot_index)
+        # for lot_index in history_copy:
+        #     self.cam2_lot_history[lot_index]["TTL"] -= 1
+        #     if self.cam2_lot_history[lot_index]["TTL"] == 0:
+        #         self.cam2_lot_history.pop(lot_index)
                     
                 
     
     def cam2_anomaly_detection(self, predictions):
         pass
     
-    def greatest_intersection_lot(self, bounding_box):
-        max_area = 0
-        id_of_max = None
-        for i, xl1, xl2, yl1, yl2, _ in enumerate(self.lots):
-            x1, x2, y1, y2 = bounding_box
-            x_left = max(xl1, x1)
-            x_right = min(xl2, x2)
-            y_top = max(yl1, y1)
-            y_bottom = min(yl2, y2)
+    # def greatest_intersection_lot(self, bounding_box):
+    #     max_area = 0
+    #     id_of_max = None
+    #     for i, xl1, xl2, yl1, yl2, _ in enumerate(self.lots):
+    #         x1, x2, y1, y2 = bounding_box
+    #         x_left = max(xl1, x1)
+    #         x_right = min(xl2, x2)
+    #         y_top = max(yl1, y1)
+    #         y_bottom = min(yl2, y2)
     
-            if x_right < x_left or y_bottom < y_top:
-                continue
+    #         if x_right < x_left or y_bottom < y_top:
+    #             continue
 
-            area = (x_right - x_left) * (y_bottom - y_top)       
-            if area > max_area:
-                max_area = area
-                id_of_max = i
+    #         area = (x_right - x_left) * (y_bottom - y_top)       
+    #         if area > max_area:
+    #             max_area = area
+    #             id_of_max = i
 
-        return id_of_max, max_area            
+    #     return id_of_max, max_area            
             
             
             
