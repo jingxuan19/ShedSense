@@ -15,20 +15,27 @@ def roi_detection(frame, model, Shed_state):
     result = model.detect(frame)
     detected_objects = model.separate_objects(result) # box, score, class_id, class_name
     
-    person_detections = []
-    for det_obj in detected_objects:       
-        if det_obj['class_id'] == 0:
-            person_detections.append(det_obj['box'].numpy().tolist()+[det_obj['score'].numpy().item()])
+    # person_detections = []
+    # for det_obj in detected_objects:       
+    #     if det_obj['class_id'] == 0:
+    #         person_detections.append(det_obj['box'].numpy().tolist()+[det_obj['score'].numpy().item()])
     
-    if person_detections == []:
-        person_detections = np.empty((0,5))
-    else:
-        person_detections = np.array(person_detections)
+    # if person_detections == []:
+    #     person_detections = np.empty((0,5))
+    # else:
+    #     person_detections = np.array(person_detections)
 
-    person_predictions = Shed_state.cam2_person_tracker.update(person_detections) # xyxy id
+    # person_predictions = Shed_state.cam2_person_tracker.update(person_detections) # xyxy id
     
-    Shed_state.cam2_bike_lot_history_update(person_predictions)
+    person_detections = []
+    for det_obj in detected_objects:
+        if det_obj["class_id"] == 0:
+            x1, y1, x2, y2 = det_obj['box'].numpy().tolist()
+            person_detections.append([x1, y1, x2, y2, det_obj['score'].numpy().item()])
     
+    Shed_state.cam2_bike_lot_history_update(person_detections)
+    
+    return result[0].plot()
     # # frame = result[0].plot()
     # person_measured = {}
     

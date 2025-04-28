@@ -7,7 +7,10 @@ import time
 import datetime
 import logging
 import yaml
-# import time
+import numpy as np
+import socket
+import struct
+
 
 from Shed_state import Shed_state
 from loi.detection.load_lines import load_lines
@@ -16,6 +19,16 @@ from models.YOLO_model import YOLOmodel
 # from utils.sort import Sort
 from loi.detection.loi_detection import loi_detection
 from roi.detection.roi_detection import roi_detection
+
+# Socket for testing
+# server_socket = socket.socket()
+# server_socket.bind(('0.0.0.0', 8000))
+# server_socket.listen(0)
+# print("Waiting for connection...")
+# conn, addr = server_socket.accept()
+# print("Connected by", addr)
+# conn = conn.makefile('wb')
+# encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 90]
 
 def main(is_cpu, recorded_path):
     logging.basicConfig(level=logging.INFO,
@@ -32,7 +45,7 @@ def main(is_cpu, recorded_path):
     
     # Shed Status
     shed_state = Shed_state()
-    schedule.every(5).seconds.do(shed_state.publish_shed_state)
+    schedule.every(1).seconds.do(shed_state.publish_shed_state)
     # MQTT_Client = shed_state.Node_MQTT_Client
     
     Yolo_model = YOLOmodel(is_cpu)
@@ -48,8 +61,8 @@ def main(is_cpu, recorded_path):
     # Camera 2 setup
     with open("/home/shedsense1/ShedSense/node/config/calibration.yaml", "r") as f:
         calibration_config = yaml.safe_load(f)
-    camera_intrinsic_matrix = calibration_config["K"]
-    distortion_coeff = calibration_config["D"]
+    camera_intrinsic_matrix = np.array(calibration_config["K"])
+    distortion_coeff = np.array(calibration_config["D"])
     
     shutdown_event_cam_2 = threading.Event()
     
@@ -58,6 +71,8 @@ def main(is_cpu, recorded_path):
     camera2_thread_start_time = None
     camera2_keep_alive_time = 0
     
+    if recorded_path is not None:
+        camera2_thread.start()
     
     try:
         while True:
@@ -68,10 +83,11 @@ def main(is_cpu, recorded_path):
             if (shed_state.lots is None) and (shed_state.Node_MQTT_Client.lots is not None):
                 shed_state.lots = {}
                 for i, lot in enumerate(shed_state.Node_MQTT_Client.lots):
+                    # print(shed_state.Node_MQTT_Client.lots)
                     shed_state.lots[i] = {"coords": lot[:-1]}
-                    if lot[-1] == (0, 0, 255):
+                    if lot[-1]:
                         shed_state.lots[i]["is_occupied": True]
-                    elif lot[-1] == (0, 255, 0):
+                    elif lot[-1]:
                         shed_state.lots[i]["is_occupied": False]
                     
                 print(shed_state.lots)
@@ -108,7 +124,18 @@ def main(is_cpu, recorded_path):
             
             if not camera2_frame_buffer.empty():
                 frame = camera2_frame_buffer.get()
-                roi_detection(frame)
+                annotated_frame = roi_detection(frame, Yolo_model, shed_state)
+                
+                if shed_state.lots is None:
+                    _, payload = cv2.imencode('.jpeg', frame)
+                    shed_state.Node_MQTT_Client.publish("ShedSense/node/frame", payload.tobytes())
+                # NOTE: socket for testing
+                # data = annotated_frame.tobytes()
+                # size = len(data)
+                # conn.write(struct.pack('<L', size))
+                # conn.write(data)
+                
+                
                 
             if shed_state.status["people"] == 0 and camera2_thread.is_alive():
                 if camera2_keep_alive_time != 0:
@@ -117,6 +144,8 @@ def main(is_cpu, recorded_path):
                         logger.info(f"Camera 2 shutting down, time active: {time.time()-camera2_thread_start_time}")
                         
                         shed_state.cam2_lot_history = {}
+                        camera2_thread = threading.Thread(target=live_feed, args=(shutdown_event_cam_2, recorded_path, camera2_frame_buffer, camera_intrinsic_matrix, distortion_coeff))
+                        
                 else:
                     camera2_keep_alive_time = time.time()
             
@@ -125,6 +154,7 @@ def main(is_cpu, recorded_path):
         logger.warning("Node thread: Keyboard interrupt, releasing resources")
         # shutdown_event_cam_1.set()
         # camera1_thread.join()
+        shutdown_event_cam_2.set()
         shed_state.Node_MQTT_Client.cam_1_frame_buffer.queue.clear()
         shed_state.Node_MQTT_Client.publish("ShedSense/node/shutdown", str(datetime.datetime.now().time()))
         

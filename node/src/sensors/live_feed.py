@@ -24,6 +24,18 @@ def live_feed(shutdown_event, is_recorded, frame_buffer, K, D):
         logger.info("Pulling stream from recording")
         
         cap = cv2.VideoCapture(is_recorded)
+        
+        # while cap.isOpened():
+        #     ret, frame = cap.read()
+            
+        #     if not ret:        
+        #         print("flag")      
+        #         break
+            
+        #     _, payload = cv2.imencode('.jpeg', frame)
+        #     # print(payload.dtype, payload.size)
+        #     Node_MQTT_client.publish("ShedSense/node/frame", payload.tobytes())
+        
     else:      
         video = None
         
@@ -36,14 +48,14 @@ def live_feed(shutdown_event, is_recorded, frame_buffer, K, D):
         camera.start()
     
     # Socket for testing
-    server_socket = socket.socket()
-    server_socket.bind(('0.0.0.0', 8000))
-    server_socket.listen(0)
-    print("Waiting for connection...")
-    conn, addr = server_socket.accept()
-    print("Connected by", addr)
-    conn = conn.makefile('wb')
-    encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 90]
+    # server_socket = socket.socket()
+    # server_socket.bind(('0.0.0.0', 8000))
+    # server_socket.listen(0)
+    # print("Waiting for connection...")
+    # conn, addr = server_socket.accept()
+    # print("Connected by", addr)
+    # conn = conn.makefile('wb')
+    # encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 90]
     
    
     #MQTT setup
@@ -61,7 +73,7 @@ def live_feed(shutdown_event, is_recorded, frame_buffer, K, D):
         else:
             frame = camera.capture_array("main")   
 
-            if not video:
+            if video is None:
                 # for recording purpose during testing
                 video = cv2.VideoWriter(f"/home/shedsense1/Desktop/recordings/{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.mp4", cv2.VideoWriter_fourcc(*"mp4v"), 15, (frame.shape[1], frame.shape[0]))
             video.write(frame)
@@ -78,13 +90,16 @@ def live_feed(shutdown_event, is_recorded, frame_buffer, K, D):
         
         # Publish frame
         # _, payload = cv2.imencode('.jpeg', frame)
-        # # print(payload.dtype, payload.size)
+        # print(payload.dtype, payload.size)
         # Node_MQTT_client.publish("ShedSense/node/frame", payload.tobytes())
         # _, img_encoded = cv2.imencode('.jpg', frame, encode_param)
-        data = frame.tobytes()
-        size = len(data)
-        conn.write(struct.pack('<L', size))
-        conn.write(data)
+
+
+        # NOTE: socket for testing
+        # data = frame.tobytes()
+        # size = len(data)
+        # conn.write(struct.pack('<L', size))
+        # conn.write(data)
         
         # Send frame to buffer
         frame = cv2.resize(frame, (640, 640))
