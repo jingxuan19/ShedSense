@@ -11,6 +11,7 @@ to_subscribe:
   - "ShedSense/node/annotated_frame"
   - "ShedSense/node/filtered_frame"
   - "ShedSense/node/shutdown"
+  - "ShedSense/pi_zero/frame"
   
 
 ca_cert: C:\Users\tanji\OneDrive\Cambridge\2\Project\MQTT_certs\mosquitto.org.crt

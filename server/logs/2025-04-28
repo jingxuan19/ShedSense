@@ -1,0 +1,2035 @@
+INFO:mqtt_server:Connected to test.mosquitto.org at port 1883 at 12:36:51.775356
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Connected to test.mosquitto.org at port 1883 at 12:59:59.602232
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Connected to test.mosquitto.org at port 1883 at 13:00:16.160196
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Connected to test.mosquitto.org at port 1883 at 13:00:38.412792
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Received filtered frame
+INFO:mqtt_server:Connected to test.mosquitto.org at port 1883 at 13:05:10.950431
+INFO:mqtt_server:Connected to test.mosquitto.org at port 1883 at 13:08:53.198758
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Connected to test.mosquitto.org at port 1883 at 13:10:09.268253
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Connected to test.mosquitto.org at port 1883 at 13:10:35.022938
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Successfully sent payload to ShedSense/server/initialise_lots at 13:10:36.674666
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Connected to test.mosquitto.org at port 1883 at 13:20:07.735976
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Reset state
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Successfully sent payload to ShedSense/server/initialise_lots at 13:35:17.423179
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}
+INFO:mqtt_server:Received frame
+INFO:mqtt_server:Current status: {'people': 0, 'bikes': 0, 'alert': '0', 'cam_2_people_locations': []}

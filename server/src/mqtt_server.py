@@ -35,7 +35,7 @@ class MQTTServerClient:
         
         self.history_people_locations = {}
         self.current_people_locations = []
-                
+                    
         self.client = mqtt_client.Client()
         # self.client.tls_set(ca_certs=config["ca_cert"], certfile=config["certfile"], keyfile=config["keyfile"])
         
@@ -60,7 +60,7 @@ class MQTTServerClient:
             print(f"Failed to connect: return code {reason_code}")
             
     def on_message(self, client, user_data, msg):
-        # print("RECEIVED")
+        # print(msg.topic)
         # print(type(msg.payload))
         if msg.topic == "ShedSense/node/frame":
             self.frame = cv2.imdecode(np.frombuffer(msg.payload, dtype=np.uint8), cv2.IMREAD_COLOR)
@@ -87,10 +87,11 @@ class MQTTServerClient:
         elif msg.topic == "ShedSense/node/shutdown":
             self.reset()
             self.logger.info("Reset state")
-            
-        elif msg.topic == "ShedSense/pi_zero/frame":
-            self.frame = cv2.imdecode(np.frombuffer(msg.payload, dtype=np.uint8), cv2.IMREAD_COLOR)
-            self.logger.info("Received frame")  
+        
+        # Pi_zero for debugging
+        # elif msg.topic == "ShedSense/pi_zero/frame":
+        #     self.frame = cv2.imdecode(np.frombuffer(msg.payload, dtype=np.uint8), cv2.IMREAD_COLOR)
+        #     self.logger.info("Received frame")  
             
     def reset(self):
         self.frame = None

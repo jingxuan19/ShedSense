@@ -34,11 +34,11 @@ def main():
             
             if is_to_initialise and not is_initialising:
                 is_initialising = True
-                bike_lot_pts = start_lot_drawing(Server_MQTT_client, frame)
+                bike_lot_pts = start_lot_drawing(frame)
                 
                 with open(r"C:\Users\tanji\OneDrive\Cambridge\2\Project\ShedSense\server\config\calibration.yaml", "r") as f:
                     config = yaml.safe_load(f)
-                H = config["H"]
+                H = np.array(config["H"])
                 
                 lot_pts_top_down = []
                 for x1, x2, y1, y2, color in bike_lot_pts:

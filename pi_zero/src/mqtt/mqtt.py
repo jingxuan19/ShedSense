@@ -15,12 +15,12 @@ class MQTTPiClient:
         
     def __init__(self):       
         self.logger = logging.getLogger(__name__)
-        self.handler = logging.FileHandler(f"/home/shedsense1/ShedSense/{DEVICE}/logs/{datetime.date.today()}")
+        self.handler = logging.FileHandler(f"/home/shedsense2/ShedSense/{DEVICE}/logs/{datetime.date.today()}")
         
         self.logger.setLevel(logging.INFO)
         self.logger.addHandler(self.handler)
         
-        with open(f"/home/shedsense1/ShedSense/{DEVICE}/config/mqtt.yaml", "r") as f:
+        with open(f"/home/shedsense2/ShedSense/{DEVICE}/config/mqtt.yaml", "r") as f:
             config = yaml.safe_load(f)
             self.broker = config["broker"]
             self.port = config["port"]
@@ -30,11 +30,12 @@ class MQTTPiClient:
         
         self.client.on_connect = self.on_connect
         self.client.on_message = self.on_message
+        self.client.on_disconnect = self.on_disconnect
         
         self.client.connect(self.broker, self.port)
         
-        for topic in config["to_subscribe"]:
-            self.client.subscribe(topic)   
+        # for topic in config["to_subscribe"]:
+        #     self.client.subscribe(topic)   
         
     def on_connect(self, client, user_data, flags, reason_code):
         if reason_code == 0:
@@ -46,14 +47,20 @@ class MQTTPiClient:
         
     def on_message(self, client, user_data, msg):
         print("RECEIVED")
-        if msg.topic == "ShedSense/server/initialise_lots":
-            self.lots = msg.payload
-            self.logger.info(f"Recevied lots: {self.lots}")  
-     
+        
+    def on_disconnect(self, client, userdata, rc):
+        if rc != 0:
+            self.logger.warning("Disconnected. Trying to reconnect")
+            try:
+                self.client.reconnect()
+            except Exception as e:
+                self.logger.info("Reconnect failed:", e)
+
     def publish(self, topic, payload):
         return_code = self.client.publish(topic, payload)
         if return_code[0] == 0:
             self.logger.info(f"Successfully sent payload to {topic}")
+            print("PUBLISH")
             return 0
         
         # Problem
