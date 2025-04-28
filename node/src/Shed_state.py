@@ -3,6 +3,8 @@ import datetime
 import json
 # import numpy as np
 import cv2
+import time
+import math
 from enum import Enum
 from math import inf
 import yaml
@@ -42,15 +44,16 @@ class Shed_state:
     
     def __init__(self):
         self.Node_MQTT_Client = MQTTPiClient()        
-        self.status = {"people": 0, "bikes": 0, "alert": Alert_status.Clear, "cam_2_people_locations": {}}
+        # NOTE: I set people to 1 for testing
+        self.status = {"people": 1, "bikes": 0, "alert": Alert_status.Clear, "cam_2_people_locations": []}
         
         self.cam1_person_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0.3)
         self.cam1_bike_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0.3)
         
-        self.cam2_person_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0.3)
-        with open("/home/shedsense1/ShedSense/node/config/calibration.py", "r") as f:
+        self.cam2_person_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0)
+        with open("/home/shedsense1/ShedSense/node/config/calibration.yaml", "r") as f:
             config = yaml.safe_load(f)
-        self.homography_matrix = config["H"] 
+        self.homography_matrix = np.array(config["H"] )
         
         self.logger = logging.getLogger(__name__)
         handler = logging.FileHandler(f"/home/shedsense1/ShedSense/node/logs/{datetime.date.today()}")
@@ -92,7 +95,9 @@ class Shed_state:
                     if self.history[id]["TIF"] > max_time_stay:
                         max_time_stay = self.history[id]["TIF"]
         
-        # anomaly detection heuristic
+        # anomaly detection heuristic, Loitering
+        # NOTE: alert status can only be downgraded by server
+        # count is the number of people in the shed past threshold
         if count > 0:
             if max_time_stay > threshold*2:
                 # time spent in shed by any 1 individual exceeds twice the threshold
@@ -100,53 +105,127 @@ class Shed_state:
             elif count > 3:
                 # more than 3 people have spent above threshold in the shed
                 self.status["alert"] = Alert_status.High
-            else:
+            elif self.status["alert"] != Alert_status.High:
                 self.status["alert"] = Alert_status.Moderate
-        else:
-            self.status["alert"] = Alert_status.Clear
+        # else:
+        #     self.status["alert"] = Alert_status.Clear
     
     
-    def cam2_bike_lot_history_update(self, predictions):
+    def cam2_bike_lot_history_update(self, detections):
         people_locations = []
-        lot_index_with_people = []
-        for x1, _, x2, y2, person_id in predictions:
+        for x1, _, x2, y2, score in detections:
             xo, yo = (x2-x1)/2+x1, y2
             
             # Homography
             point = np.array([[[xo, yo]]], dtype=np.float64)
             point = cv2.perspectiveTransform(point, self.homography_matrix)
-            xo, yo = point[0, 0, :]           
-            people_locations.append(point[0,0,:])
+            xo, yo = point[0, 0, :]
+            # Size of point
+            xh1, xh2 = xo-10, xo+10
+            yh1, yh2 = yo-10, yo+10           
+            people_locations.append([xh1, yh1, xh2, yh2, score])
+            # people_locations.append([xo, yo, score])
             
-            if person_id not in self.cam2_person_history:
-                self.cam2_person_history[person_id] = []
-            self.cam2_person_history[person_id].append(point[0,0,:])
+        
+        if detections == []:
+            people_locations = np.empty((0,5))
+        else:
+            people_locations = np.array(people_locations)
+            
+
+        people_predictions = self.cam2_person_tracker.update(people_locations)
+        # people_predictions = []
+        
+        lot_index_with_people = []
+        people_locations = []
+        for x1, y1, x2, y2, id in people_predictions:
+            cx = x1+(x2-x1)/2
+            cy = y1+(y2-y1)/2
+            people_locations.append([cx, cy, id])
+        
+            if id not in self.cam2_person_history:
+                self.cam2_person_history[id] = {"time_start": time.time()}
+                self.cam2_person_history[id]["coords"] = []
+                
+            self.cam2_person_history[id]["last_update"] = time.time()
+            self.cam2_person_history[id]["coords"].append([cx, cy])
             
             # is the point in a lot?
-            for id in self.lots:
-                xl1, xl2 ,yl1, yl2 = self.lots[id]["coords"]
-                if (xo <= xl2) and (xo >= xl1):
-                    if (yo <= yl2) and (yo >= yl1):
-                        lot_index_with_people.append(id)
+            if self.lots is not None:
+                for id in self.lots:
+                    xl1, xl2 ,yl1, yl2 = self.lots[id]["coords"]
+                    if (cx <= xl2) and (cx >= xl1):
+                        if (cy <= yl2) and (cy >= yl1):
+                            lot_index_with_people.append(id)
              
         for lot_index in lot_index_with_people:
             if lot_index in self.cam2_lot_history:
-                self.cam2_lot_history[lot_index][person_id] += 1 
-                if self.cam2_lot_history[lot_index][person_id] > 20:
+                self.cam2_lot_history[lot_index][id] += 1 
+                if self.cam2_lot_history[lot_index][id] > 20:
                     self.lots[lot_index]["is_occupied"] = not self.lots[lot_index]["is_occupied"]
-                    self.cam2_lot_history[lot_index][person_id] = -inf
+                    print("CHANGED!")
+                    self.cam2_lot_history[lot_index][id] = -inf
                     
             else:
-                self.cam2_lot_history[lot_index] = {person_id: 1}   
+                self.cam2_lot_history[lot_index] = {id: 1}   
         
-        self.status["cam_2_people_locations"] = people_locations  
-
+        print(people_locations)
+        self.status["cam_2_people_locations"] = people_locations
+        self.status["lot_status"] = self.lots
+        
+        self.cam2_anomaly_detection()
+        
+        # Remove old values
+        for id in self.cam2_person_history.copy():
+            if time.time() - self.cam2_person_history[id]["last_update"] > 60:
+                self.cam2_person_history.pop(id)
     
-    def person_bike_matching(self, people_measurement, bike_measurement):
-        for p_id in people_measurement:
-            pass
-        
+    def cam2_anomaly_detection(self, people_locations):
+        ids_found = []
+        for x, y, id in people_locations:
+            ids_found.append(id)
             
+            history_coords = self.cam2_person_history[id]["coords"]
+            prev_coords = []
+            lines = []
+            for coords in history_coords:
+                if prev_coords == []:
+                    prev_coords = coords
+                    continue
+                x1, y1 = prev_coords
+                x2, y2 = coords
+                lines.append([x2-x1, y2-y1])
+            
+            prev_line = []
+            all_angles = []
+            for line in lines:
+                if prev_line == []:
+                    prev_line = line
+                    continue
+                dot_product = line[0]*prev_line[0] + line[1]*prev_line[1]
+                magnitude_prev = math.sqrt(prev_line[0]**2+prev_line[1]**2)
+                magnitude_curr = math.sqrt(line[0]**2+line[1]**2)
+                angle = math.degrees(math.acos(dot_product/magnitude_curr/magnitude_prev)) # Always less than 180
+                all_angles.append(angle)
+            # Test for erratic movement
+            # high average angle and many high angles
+            all_angles = np.array(all_angles)
+            avg_angle = np.average(all_angles)
+            if avg_angle > 135:
+                self.status["alert"] = Alert_status.High
+            elif avg_angle > 45 and self.status["alert"] != Alert_status.High:
+                self.status["alert"] = Alert_status.Moderate
+            # If more than 5 high angles
+            if np.sum(all_angles>135) > 10:
+                self.status["alert"] = Alert_status.High
+            elif np.sum(all_angles>135) > 5 and self.status["alert"] != Alert_status.High:
+                self.status["alert"] = Alert_status.Moderate
+                
+    
+    def person_bike_matching(self, people_locations):
+        for x, y, id in people_locations:
+            pass
+                       
         # history_copy = self.cam2_lot_history        
         # for x1,y1,x2,y2,_ in predictions:
         #     lot_index, area = self.greatest_intersection_lot((x1,x2,y1,y2))
@@ -172,11 +251,6 @@ class Shed_state:
         #     self.cam2_lot_history[lot_index]["TTL"] -= 1
         #     if self.cam2_lot_history[lot_index]["TTL"] == 0:
         #         self.cam2_lot_history.pop(lot_index)
-                    
-                
-    
-    def cam2_anomaly_detection(self, predictions):
-        pass
     
     # def greatest_intersection_lot(self, bounding_box):
     #     max_area = 0
@@ -199,8 +273,6 @@ class Shed_state:
     #     return id_of_max, max_area            
             
             
-            
-    
     def update_annotated_frame(self, frame):
         _, frame = cv2.imencode('.jpeg', frame)
         self.annotated_frame = frame.tobytes()

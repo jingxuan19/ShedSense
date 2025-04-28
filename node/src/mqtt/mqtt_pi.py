@@ -5,6 +5,7 @@ import datetime
 import cv2
 import numpy as np
 import queue
+import json
 
 # TODO: Autoreconnect, polish up code for server and pi for multiple topics subscription, message handler
 
@@ -47,7 +48,7 @@ class MQTTPiClient:
     def on_message(self, client, user_data, msg):
         print("RECEIVED")
         if msg.topic == "ShedSense/server/initialise_lots":
-            self.lots = msg.payload
+            self.lots = json.loads(msg.payload)
             self.logger.info(f"Recevied lots: {self.lots}")  
 
         elif msg.topic == "ShedSense/pi_zero/frame":
@@ -69,5 +70,6 @@ class MQTTPiClient:
     
     def disconnect(self):
         self.client.disconnect()
+        self.logger.warning("MQTT Disconnected")
 
 
