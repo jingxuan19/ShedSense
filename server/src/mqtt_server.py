@@ -5,12 +5,14 @@ import datetime
 import cv2
 import numpy as np
 import threading
+import json
 
 class MQTTServerClient:
     frame = None
     annotated_frame = None
     filtered_frame = None
-    people_locations = None
+    history_people_locations = None
+    current_people_locations = None
     
     status = None
     
@@ -30,6 +32,9 @@ class MQTTServerClient:
         
         self.frame = None
         self.status = None
+        
+        self.history_people_locations = {}
+        self.current_people_locations = []
                 
         self.client = mqtt_client.Client()
         # self.client.tls_set(ca_certs=config["ca_cert"], certfile=config["certfile"], keyfile=config["keyfile"])
@@ -55,19 +60,24 @@ class MQTTServerClient:
             print(f"Failed to connect: return code {reason_code}")
             
     def on_message(self, client, user_data, msg):
-        print("RECEIVED")
+        # print("RECEIVED")
         # print(type(msg.payload))
         if msg.topic == "ShedSense/node/frame":
             self.frame = cv2.imdecode(np.frombuffer(msg.payload, dtype=np.uint8), cv2.IMREAD_COLOR)
             self.logger.info("Received frame")  
                      
         elif msg.topic == "ShedSense/node/status":
-            self.status = msg.payload
-            self.logger.info(f"Current status: {self.status}")        
-            self.people_locations = self.status["cam_2_people_locations"]
+            self.status = json.loads(msg.payload)
+            self.logger.info(f"Current status: {self.status}")   
+            self.current_people_locations = self.status["cam_2_people_locations"]
+            for x, y, id in self.status["cam_2_people_locations"]:
+                if id not in self.history_people_locations:
+                    self.history_people_locations[id] = []
+                self.history_people_locations[id].append([x, y])
         
         elif msg.topic == "ShedSense/node/annotated_frame":
-            self.annotated_frame = cv2.imdecode(np.frombuffer(msg.payload, dtype=np.uint8), cv2.IMREAD_COLOR)
+            if len(np.frombuffer(msg.payload, dtype=np.uint8)) != 0:
+                self.annotated_frame = cv2.imdecode(np.frombuffer(msg.payload, dtype=np.uint8), cv2.IMREAD_COLOR)
             self.logger.info("Received annotated frame")     
         
         elif msg.topic == "ShedSense/node/filtered_frame":
@@ -77,6 +87,10 @@ class MQTTServerClient:
         elif msg.topic == "ShedSense/node/shutdown":
             self.reset()
             self.logger.info("Reset state")
+            
+        elif msg.topic == "ShedSense/pi_zero/frame":
+            self.frame = cv2.imdecode(np.frombuffer(msg.payload, dtype=np.uint8), cv2.IMREAD_COLOR)
+            self.logger.info("Received frame")  
             
     def reset(self):
         self.frame = None

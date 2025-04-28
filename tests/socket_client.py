@@ -6,7 +6,7 @@ import yaml
 from YOLO_model import YOLOmodel
 
 client_socket = socket.socket()
-client_socket.connect(("10.247.36.134", 8000))
+client_socket.connect(("192.168.0.164", 8000))
 # client_socket.connect(("192.168.0.164", 8000))
 conn = client_socket.makefile('rb')
 
@@ -49,20 +49,21 @@ def undistort_fisheye(frame, K, D):
         # dst = cv2.undistort(img, mtx, dist, None, newcameramtx)
     return dst
 
-with open("calibration.yaml", "r") as f:
+with open(r"C:\Users\tanji\OneDrive\Cambridge\2\Project\ShedSense\calibration.yaml", "r") as f:
         config = yaml.safe_load(f)
 K = np.array(config["K"])
 D = np.array(config["D"])
 
-source_points = np.array([[600, 295], [720, 295], [1270, 550], [5, 550]], dtype=np.float64)
+# source_points = np.array([[600, 295], [720, 295], [1270, 550], [5, 550]], dtype=np.float64)
+source_points = np.array([[600/1280*640, 295/720*640], [720/1280*640, 295/720*640], [1270/1280*640, 550/720*640], [5/1280*640, 550/720*640]], dtype=np.float64)
 destination_points = np.array([[0, 0], [740, 0], [740, 1800], [0, 1800]], dtype=np.float64)
 
 H, status = cv2.findHomography(source_points, destination_points)
-# with open("H.yaml", "w") as f:
-#     yaml.dump({"H": H.tolist()}, f)
+with open("H.yaml", "w") as f:
+    yaml.dump({"H": H.tolist()}, f)
 
-# print(H)
-model = YOLOmodel(True)
+print(H)
+# model = YOLOmodel(True)
 
 try:
     while True:
@@ -75,36 +76,37 @@ try:
         # cv2.imshow("Raw", frame)
         frame = undistort_fisheye(frame, K, D)
 
-        # Detect
-        result = model.detect(frame)
-        detected = model.separate_objects(result)
+        # # Detect
+        # result = model.detect(frame)
+        # detected = model.separate_objects(result)
         
-        # print(detected)       
+        # # print(detected)       
         
-        top_down_img = np.ones((2000, 1000, 3), np.uint8)*255
+        # top_down_img = np.ones((2000, 1000, 3), np.uint8)*255
 
-        # Homography        
-        # top_down = cv2.warpPerspective(frame, H, (1280, 720))
+        # # Homography        
+        # # top_down = cv2.warpPerspective(frame, H, (1280, 720))
 
         
-        for obj in detected:
-            if obj["class_id"] != 0:
-                continue
-            x1, _, x2, y2  = obj["box"]
-            person_floor_coords = [(x2-x1)/2+x1, y2]
-            point = np.array([[person_floor_coords]], dtype=np.float64)
-            point = cv2.perspectiveTransform(point, H)
-            print(np.array(point[0, 0, :], dtype=int))
+        # for obj in detected:
+        #     if obj["class_id"] != 0:
+        #         continue
+        #     x1, _, x2, y2  = obj["box"]
+        #     person_floor_coords = [(x2-x1)/2+x1, y2]
+        #     point = np.array([[person_floor_coords]], dtype=np.float64)
+        #     point = cv2.perspectiveTransform(point, H)
+        #     print(np.array(point[0, 0, :], dtype=int))
             
-            cv2.circle(top_down_img, np.array(point[0, 0, :], dtype=int), 10, (255, 65, 137), -1)
+        #     cv2.circle(top_down_img, np.array(point[0, 0, :], dtype=int), 10, (255, 65, 137), -1)
         
-        top_down_img = cv2.resize(top_down_img, (720, 1280))
-        top_down_img = cv2.rotate(top_down_img, cv2.ROTATE_90_COUNTERCLOCKWISE)    
+        # top_down_img = cv2.resize(top_down_img, (720, 1280))
+        # top_down_img = cv2.rotate(top_down_img, cv2.ROTATE_90_COUNTERCLOCKWISE)    
         
-        cv2.imshow("Top Down", top_down_img)
+        # cv2.imshow("Top Down", top_down_img)
 
-        cv2.imshow('Stream', result[0].plot())
-        # cv2.setMouseCallback("Stream", on_click)
+        # cv2.imshow('Stream', result[0].plot())
+        cv2.imshow("raw", frame)
+        cv2.setMouseCallback("Stream", on_click)
 
         key = cv2.waitKey(1)
         if key == ord("q"):

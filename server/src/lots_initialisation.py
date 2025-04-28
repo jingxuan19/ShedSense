@@ -53,7 +53,7 @@ def mouse_callback(event,x,y,flags,param):
             for x1,x2,y1,y2, c in bike_lot_pts:
                 cv2.rectangle(mask, (x1, y1), (x2, y2), c, -1)
                 
-def start_lot_drawing(MQTTClient, img):
+def start_lot_drawing(img):
     print("Starting lot drawing")
     global ix,iy,drawing, mask, mask_uncomitted, bike_lot_pts, is_occupied, initial_img
     
@@ -85,7 +85,7 @@ def start_lot_drawing(MQTTClient, img):
         elif key == ord('q'):
             break
         elif key == ord("s"):
-            MQTTClient.publish("ShedSense/server/initialise_lots", json.dumps(bike_lot_pts))
-            break
+            cv2.destroyAllWindows()
+            return bike_lot_pts
+
                     
-    cv2.destroyAllWindows()
