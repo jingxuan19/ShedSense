@@ -6,6 +6,7 @@ import cv2
 import numpy as np
 import threading
 import json
+import time
 
 class MQTTServerClient:
     frame = None
@@ -29,6 +30,7 @@ class MQTTServerClient:
             config = yaml.safe_load(f)
             self.broker = config["broker"]
             self.port = config["port"]
+            self.config = config
         
         self.frame = None
         self.status = None
@@ -43,37 +45,48 @@ class MQTTServerClient:
         # self.client.username_pw_set(username=config["username"], password=config["password"])
         
         self.client.on_connect = self.on_connect
-        self.client.on_message = self.on_message        
+        self.client.on_message = self.on_message     
+        self.client.on_disconnect = self.on_disconnect   
                 
-        self.client.connect(self.broker, self.port)
-        
-        for topic in config["to_subscribe"]:
-            self.client.subscribe(topic)    
-        
+        self.client.connect(self.broker, self.port)        
         
     def on_connect(self, client, user_data, flags, reason_code):
         if reason_code == 0:
             self.logger.info(f"Connected to {self.broker} at port {self.port} at {datetime.datetime.now().time()}")
             print("CONNECTED!")
+            for topic in self.config["to_subscribe"]:
+                self.client.subscribe(topic)   
         else:
             self.logger.warning(f"Failed to connect to {self.broker} at port {self.port} with return code {reason_code}")
             print(f"Failed to connect: return code {reason_code}")
             
+    def on_disconnect(self, client, userdata, rc):
+        if rc != 0:
+            self.logger.warning("Disconnected. Trying to reconnect")
+            try:
+                self.client.reconnect()
+                for topic in self.config["to_subscribe"]:
+                    self.client.subscribe(topic)  
+            except Exception as e:
+                self.logger.info("Reconnect failed:", e)        
+    
     def on_message(self, client, user_data, msg):
         # print(msg.topic)
         # print(type(msg.payload))
         if msg.topic == "ShedSense/node/frame":
             self.frame = cv2.imdecode(np.frombuffer(msg.payload, dtype=np.uint8), cv2.IMREAD_COLOR)
-            self.logger.info("Received frame")  
+            self.logger.info(f"Received frame from {msg.topic} at {datetime.datetime.now().time()}")  
                      
         elif msg.topic == "ShedSense/node/status":
             self.status = json.loads(msg.payload)
-            self.logger.info(f"Current status: {self.status}")   
+            self.logger.info(f"Current status at {datetime.datetime.now().time()}: {self.status}")   
             self.current_people_locations = self.status["cam_2_people_locations"]
             for x, y, id in self.status["cam_2_people_locations"]:
                 if id not in self.history_people_locations:
-                    self.history_people_locations[id] = []
-                self.history_people_locations[id].append([x, y])
+                    self.history_people_locations[id] = {"coords": [], "timestamps": []}
+                self.history_people_locations[id]["coords"].append([x, y])
+                self.history_people_locations[id]["timestamps"].append(time.time())
+                
         
         elif msg.topic == "ShedSense/node/annotated_frame":
             if len(np.frombuffer(msg.payload, dtype=np.uint8)) != 0:
@@ -89,9 +102,9 @@ class MQTTServerClient:
             self.logger.info("Reset state")
         
         # Pi_zero for debugging
-        # elif msg.topic == "ShedSense/pi_zero/frame":
-        #     self.frame = cv2.imdecode(np.frombuffer(msg.payload, dtype=np.uint8), cv2.IMREAD_COLOR)
-        #     self.logger.info("Received frame")  
+        elif msg.topic == "ShedSense/pi_zero/frame":
+            self.filtered_frame = cv2.imdecode(np.frombuffer(msg.payload, dtype=np.uint8), cv2.IMREAD_COLOR)
+            self.logger.info(f"Received frame from {msg.topic} at {datetime.datetime.now().time()}")  
             
     def reset(self):
         self.frame = None
