@@ -117,4 +117,5 @@ def live_feed(shutdown_event, is_recorded, frame_buffer, K, D):
         video.release()
     else:
         cap.release()
+    camera.stop()
     Node_MQTT_client.disconnect()

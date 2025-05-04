@@ -45,10 +45,10 @@ class Shed_state:
     def __init__(self):
         self.Node_MQTT_Client = MQTTPiClient()        
         # NOTE: I set people to 1 for testing
-        self.status = {"people": 1, "bikes": 0, "alert": Alert_status.Clear, "cam_2_people_locations": []}
+        self.status = {"people": math.inf, "bikes": 0, "alert": Alert_status.Clear, "cam_2_people_locations": []}
         
-        self.cam1_person_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0.3)
-        self.cam1_bike_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0.3)
+        self.cam1_person_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0.1)
+        self.cam1_bike_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0.2)
         
         self.cam2_person_tracker = Sort(max_age=20, min_hits=2, iou_threshold=0)
         with open("/home/shedsense1/ShedSense/node/config/calibration.yaml", "r") as f:
@@ -121,8 +121,8 @@ class Shed_state:
             point = cv2.perspectiveTransform(point, self.homography_matrix)
             xo, yo = point[0, 0, :]
             # Size of point
-            xh1, xh2 = xo-10, xo+10
-            yh1, yh2 = yo-10, yo+10           
+            xh1, xh2 = xo-20, xo+20
+            yh1, yh2 = yo-20, yo+20           
             people_locations.append([xh1, yh1, xh2, yh2, score])
             # people_locations.append([xo, yo, score])
             
@@ -173,7 +173,7 @@ class Shed_state:
         self.status["cam_2_people_locations"] = people_locations
         self.status["lot_status"] = self.lots
         
-        self.cam2_anomaly_detection()
+        self.cam2_anomaly_detection(people_locations)
         
         # Remove old values
         for id in self.cam2_person_history.copy():

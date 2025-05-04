@@ -66,7 +66,7 @@ def main(is_cpu, recorded_path):
     
     shutdown_event_cam_2 = threading.Event()
     
-    camera2_frame_buffer = queue.Queue(maxsize=500)
+    camera2_frame_buffer = queue.Queue(maxsize=200)
     camera2_thread = threading.Thread(target=live_feed, args=(shutdown_event_cam_2, recorded_path, camera2_frame_buffer, camera_intrinsic_matrix, distortion_coeff))
     camera2_thread_start_time = None
     camera2_keep_alive_time = 0
@@ -86,19 +86,23 @@ def main(is_cpu, recorded_path):
                     # print(shed_state.Node_MQTT_Client.lots)
                     shed_state.lots[i] = {"coords": lot[:-1]}
                     if lot[-1]:
-                        shed_state.lots[i]["is_occupied": True]
+                        shed_state.lots[i]["is_occupied"] = True
                     elif lot[-1]:
-                        shed_state.lots[i]["is_occupied": False]
+                        shed_state.lots[i]["is_occupied"] = False
                     
                 print(shed_state.lots)
 
             # Camera 1 handler
-            if not shed_state.Node_MQTT_Client.cam_1_frame_buffer.empty():
+            if False and (not shed_state.Node_MQTT_Client.cam_1_frame_buffer.empty()):
                 logger.info("Detection triggered")
                 start = time.time()
                 
                 print(f"Frames left in queue: {shed_state.Node_MQTT_Client.cam_1_frame_buffer.qsize()}")
                 frame = shed_state.Node_MQTT_Client.cam_1_frame_buffer.get()
+                
+                # _, payload = cv2.imencode('.jpeg', frame)
+                # shed_state.Node_MQTT_Client.publish("ShedSense/node/frame", payload.tobytes())
+                
                 annotated_frame = loi_detection(frame=frame, model=Yolo_model, Shed_state=shed_state, borders=camera1_borders)
                 
                 # This would be unnecessary if not debugging (not sending annotated frames), don't have to save
@@ -134,8 +138,6 @@ def main(is_cpu, recorded_path):
                 # size = len(data)
                 # conn.write(struct.pack('<L', size))
                 # conn.write(data)
-                
-                
                 
             if shed_state.status["people"] == 0 and camera2_thread.is_alive():
                 if camera2_keep_alive_time != 0:

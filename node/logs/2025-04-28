@@ -1,0 +1,508 @@
+04-28 13:44 mqtt.mqtt_pi INFO     Connected to test.mosquitto.org at port 1883 at 13:44:10.479376
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:44 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:45 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:46 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:47 __main__     INFO     Detection triggered
+04-28 13:47 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 26.95554280281067
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0644986629486084
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0522117614746094
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0546953678131104
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.055915117263794
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0556676387786865
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0546023845672607
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0552868843078613
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0547852516174316
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0549862384796143
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0565977096557617
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0560007095336914
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0565903186798096
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0539820194244385
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0521471500396729
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0580949783325195
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.055659294128418
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0560848712921143
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.053398609161377
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.064274549484253
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0629994869232178
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0545306205749512
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0634188652038574
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.053255319595337
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0550618171691895
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0594203472137451
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0575506687164307
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.054100513458252
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.051706075668335
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0610802173614502
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0627057552337646
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0623297691345215
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0636141300201416
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0559487342834473
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.054961919784546
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0547587871551514
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0538132190704346
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0536010265350342
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0694317817687988
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0534226894378662
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 __main__     INFO     Time taken per frame: 1.0543997287750244
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:48 models.YOLO_model INFO     Detected object person with confidence 0.49853238463401794 at tensor([6.1668e-01, 3.2261e+02, 3.2565e+02, 6.3900e+02])
+04-28 13:48 __main__     INFO     Time taken per frame: 1.2586817741394043
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:48 __main__     INFO     Detection triggered
+04-28 13:48 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:49 __main__     INFO     Time taken per frame: 1.0763864517211914
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 __main__     INFO     Detection triggered
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:49 __main__     INFO     Time taken per frame: 1.0981502532958984
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 __main__     INFO     Detection triggered
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:49 models.YOLO_model INFO     Detected object person with confidence 0.3321385681629181 at tensor([3.6966e-01, 3.3985e+02, 3.5417e+02, 6.3893e+02])
+04-28 13:49 __main__     INFO     Time taken per frame: 1.087937593460083
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 __main__     INFO     Detection triggered
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:49 models.YOLO_model INFO     Detected object person with confidence 0.552399754524231 at tensor([1.9522e-01, 1.5328e+02, 3.7599e+02, 6.3855e+02])
+04-28 13:49 __main__     INFO     Time taken per frame: 1.087035894393921
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 __main__     INFO     Detection triggered
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:49 __main__     INFO     Time taken per frame: 1.0674221515655518
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 __main__     INFO     Detection triggered
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:49 __main__     INFO     Time taken per frame: 1.0607082843780518
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 __main__     INFO     Detection triggered
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:49 __main__     INFO     Time taken per frame: 1.062183141708374
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 __main__     INFO     Detection triggered
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:49 __main__     INFO     Time taken per frame: 1.0557222366333008
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 __main__     INFO     Detection triggered
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:49 __main__     INFO     Time taken per frame: 1.0692176818847656
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 __main__     INFO     Detection triggered
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:49 models.YOLO_model INFO     Detected object person with confidence 0.3909057378768921 at tensor([3.0401e-01, 3.7079e+01, 4.0878e+02, 6.4000e+02])
+04-28 13:49 __main__     INFO     Time taken per frame: 1.0765738487243652
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 __main__     INFO     Detection triggered
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:49 __main__     INFO     Time taken per frame: 1.0636522769927979
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 __main__     INFO     Detection triggered
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:49 __main__     INFO     Time taken per frame: 1.0554475784301758
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 __main__     INFO     Detection triggered
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:49 __main__     INFO     Time taken per frame: 1.052703857421875
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 __main__     INFO     Detection triggered
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:49 __main__     INFO     Time taken per frame: 1.0581879615783691
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 __main__     INFO     Detection triggered
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:49 __main__     INFO     Time taken per frame: 1.1089484691619873
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi WARNING  Disconnected. Trying to reconnect
+04-28 13:49 __main__     INFO     Detection triggered
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/frame
+04-28 13:49 __main__     INFO     Time taken per frame: 1.0657033920288086
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Connected to test.mosquitto.org at port 1883 at 13:49:16.520282
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:49 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:50 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:50 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:50 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:50 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:50 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:50 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:50 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:50 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:50 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:50 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:50 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:50 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:50 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:51 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:51 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:51 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:51 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:51 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:51 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:51 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:51 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:51 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:51 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:51 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:51 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:51 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:52 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:52 mqtt.mqtt_pi INFO     Successfully sent payload to ShedSense/node/status
+04-28 13:52 mqtt.                                                                    

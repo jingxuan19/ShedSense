@@ -71,11 +71,11 @@ def live_feed(shutdown_event, is_recorded, frame_buffer):
             video.write(frame)
             
         
-        _, payload = cv2.imencode('.jpeg', frame)
+        # _, payload = cv2.imencode('.jpeg', frame)
         # print(payload.dtype, payload.size)
 
         # Publish frame
-        Node_MQTT_client.publish("ShedSense/node/frame", payload.tobytes())
+        # Node_MQTT_client.publish("ShedSense/node/frame", payload.tobytes())
         
         # Grayscale to calculate frame difference
         # 2 thresholds here, 1 is how much change per pixel to determine if the pixel changed.

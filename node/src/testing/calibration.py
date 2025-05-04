@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import glob
 import time
-# from picamera2 import Picamera20-
+from picamera2 import Picamera2
 import datetime
 import yaml
 from mqtt_pi import MQTTPiClient
@@ -299,4 +299,5 @@ def undistort_fisheye():
 # distortion_calibration()
 # undistort_test()
 # fisheye_calibration()
-undistort_fisheye()
+# undistort_fisheye()
+focus()
