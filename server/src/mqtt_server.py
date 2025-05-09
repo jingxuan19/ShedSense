@@ -22,7 +22,7 @@ class MQTTServerClient:
     reset_flag = False    
     
     def __init__(self):
-        logging.basicConfig(filename=f"C:/Users/tanji/OneDrive/Cambridge/2/Project/ShedSense/server/logs/{datetime.date.today()}", level=logging.INFO)        
+        logging.basicConfig(filename=f"C:/Users/tanji/OneDrive/Cambridge/2/Project/ShedSense/server/logs/{datetime.date.today()}.log", level=logging.INFO)        
         
         self.logger = logging.getLogger(__name__)
 
@@ -33,11 +33,12 @@ class MQTTServerClient:
             self.config = config
         
         self.frame = None
-        self.status = None
+        self.status = {}
         
         self.history_people_locations = {}
         self.current_people_locations = []
-                    
+        self.lot_status = {}
+        
         self.client = mqtt_client.Client()
         # self.client.tls_set(ca_certs=config["ca_cert"], certfile=config["certfile"], keyfile=config["keyfile"])
         
@@ -55,6 +56,7 @@ class MQTTServerClient:
             self.logger.info(f"Connected to {self.broker} at port {self.port} at {datetime.datetime.now().time()}")
             print("CONNECTED!")
             for topic in self.config["to_subscribe"]:
+                # print(f"subscribed to {topic}")
                 self.client.subscribe(topic)   
         else:
             self.logger.warning(f"Failed to connect to {self.broker} at port {self.port} with return code {reason_code}")
@@ -78,15 +80,17 @@ class MQTTServerClient:
             self.logger.info(f"Received frame from {msg.topic} at {datetime.datetime.now().time()}")  
                      
         elif msg.topic == "ShedSense/node/status":
+            self.logger.info(f"Received status: {msg.payload}")
             self.status = json.loads(msg.payload)
             self.logger.info(f"Current status at {datetime.datetime.now().time()}: {self.status}")   
-            self.current_people_locations = self.status["cam_2_people_locations"]
-            for x, y, id in self.status["cam_2_people_locations"]:
+            self.current_people_locations = self.status["people_locations"]
+            self.lot_status = self.status["lot_status"]
+                        
+            for x, y, id in self.status["people_locations"]:
                 if id not in self.history_people_locations:
                     self.history_people_locations[id] = {"coords": [], "timestamps": []}
                 self.history_people_locations[id]["coords"].append([x, y])
                 self.history_people_locations[id]["timestamps"].append(time.time())
-                
         
         elif msg.topic == "ShedSense/node/annotated_frame":
             if len(np.frombuffer(msg.payload, dtype=np.uint8)) != 0:
@@ -106,11 +110,16 @@ class MQTTServerClient:
             self.filtered_frame = cv2.imdecode(np.frombuffer(msg.payload, dtype=np.uint8), cv2.IMREAD_COLOR)
             self.logger.info(f"Received frame from {msg.topic} at {datetime.datetime.now().time()}")  
             
+        elif msg.topic == "ShedSense/node/alert_upgrade":
+            self.logger.info(f"Received frame from {msg.topic} at {datetime.datetime.now().time()}")  
+            self.logger.warning(f"Alert level increased due to {msg.payload}")  
+
+            
     def reset(self):
         self.frame = None
         self.annotated_frame = None
         self.filtered_frame = None
-        self.status = None
+        self.status = {}
         
         self.reset_flag = True
                     
