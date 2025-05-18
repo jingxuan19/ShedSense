@@ -9,7 +9,6 @@ def inside_rect_index(x, y, pts):
                 return i
     return None
 
-# mouse callback function
 def mouse_callback(event,x,y,flags,param):
     global ix,iy,drawing, mask, mask_uncomitted, color, initial_img, bike_lot_pts, is_occupied
 
