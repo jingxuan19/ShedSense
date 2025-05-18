@@ -1,7 +1,0 @@
-# (x,y)
-test_1:
-  line_1:
-    direction: left
-    points:
-    - (120, 0)
-    - (120, 640)

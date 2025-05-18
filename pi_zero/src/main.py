@@ -32,8 +32,6 @@ def main():
     time.sleep(1)
         
     prev_frame_grey = None
-    wakeup_time_left = 0
-    wakeup_time_left = 0
     
     video = None
     
@@ -52,35 +50,26 @@ def main():
             video.write(frame)
             
                     
-            # Grayscale to calculate frame difference
-            # 2 thresholds here, 1 is how much change per pixel to determine if the pixel changed.
-            # The other is how many pixels much change to determine that we need to start recording
+            # Calculate frame difference using contour method
             frame_grey = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
             
             if prev_frame_grey is None:
                 prev_frame_grey = frame_grey
             
             frame_difference = cv2.absdiff(prev_frame_grey, frame_grey)
-            
             _, filter_frame = cv2.threshold(frame_difference, 20, 255, cv2.THRESH_BINARY)
             
-            pixels_changed = np.sum(filter_frame)/255
-            logger.info(f"no. of pixels_changed: {pixels_changed}")
+            filter_frame = cv2.dilate(filter_frame, None, iterations=2)
+            contours, _ = cv2.findContours(filter_frame, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
             
+            frame = cv2.resize(frame, (640, 640))
             
-            if pixels_changed > 9400:
-                wakeup_time_left = 1 # How many more frames does it take before it decides that an event is over
-                logger.info("Pixels changed")
-            
-            if wakeup_time_left > 0:
-                frame = cv2.resize(frame, (640, 640))
-                
-                # Publish frame        
-                _, payload = cv2.imencode('.jpeg', frame)
-                # print(payload.dtype, payload.size)
-                Node_MQTT_client.publish("ShedSense/pi_zero/frame", payload.tobytes())
-                
-                wakeup_time_left -= 1
+            for c in contours:
+                if cv2.contourArea(c) > 7000:                   
+                    # Publish frame        
+                    _, payload = cv2.imencode('.jpeg', frame)
+                    Node_MQTT_client.publish("ShedSense/pi_zero/frame", payload.tobytes())
+                    break
                 
             prev_frame_grey = frame_grey
                         

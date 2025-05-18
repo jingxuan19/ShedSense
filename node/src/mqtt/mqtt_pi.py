@@ -17,7 +17,7 @@ class MQTTPiClient:
     
     def __init__(self):       
         self.logger = logging.getLogger(__name__)
-        self.handler = logging.FileHandler(f"/home/shedsense1/ShedSense/node/logs/{datetime.date.today()}")
+        self.handler = logging.FileHandler(f"/home/shedsense1/ShedSense/node/logs/{datetime.date.today()}.log")
         
         self.logger.setLevel(logging.INFO)
         self.logger.addHandler(self.handler)
@@ -40,6 +40,7 @@ class MQTTPiClient:
         for topic in config["to_subscribe"]:
             self.client.subscribe(topic)   
         
+        
     def process_messages(self, msg):
         if msg.topic == "ShedSense/server/initialise_lots":
             self.lots = json.loads(msg.payload)
@@ -52,6 +53,7 @@ class MQTTPiClient:
             self.cam_1_frame_buffer.put(frame)
             self.logger.info(f"Received frame from pi zero at {datetime.datetime.now().time()}")
         
+    # Handlers    
     def on_connect(self, client, user_data, flags, reason_code):
         if reason_code == 0:
             self.logger.info(f"Connected to {self.broker} at port {self.port} at {datetime.datetime.now().time()}")
@@ -60,8 +62,10 @@ class MQTTPiClient:
             self.logger.warning(f"Failed to connect to {self.broker} at port {self.port} with return code {reason_code}")
             print(f"Failed to connect: return code {reason_code}")
         
+        
     def on_message(self, client, user_data, msg):
         threading.Thread(target=self.process_messages, args=(msg,)).start()
+
 
     def on_disconnect(self, client, userdata, rc):
         if rc != 0:
@@ -73,6 +77,7 @@ class MQTTPiClient:
             except Exception as e:
                 self.logger.info("Reconnect failed:", e)
      
+    # Public methods 
     def publish(self, topic, payload):
         return_code = self.client.publish(topic, payload)
         if return_code[0] == 0:
@@ -82,6 +87,7 @@ class MQTTPiClient:
         # Problem
         self.logger.warning(f"Failed to send payload to {topic}")
         return 1    
+    
     
     def disconnect(self):
         self.client.disconnect()
