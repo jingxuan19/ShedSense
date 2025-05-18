@@ -7,15 +7,16 @@ suspected anomalous activities. The implemented sensors are to be deployed live 
 real-world data and scenarios.
 
 
-![example image](https://github.com/jingxuan01/ShedSense/raw/master/examples/example_img.png)
+![example image](https://github.com/jingxuan19/ShedSense/main/examples/example_img.png)
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ Feature 1
-- ✅ Feature 2
-- 🔧 Future: Feature 3
+- Temporal entry/exit detection for determining occupancy
+- Bike lot assignment through static object detection 
+- Anomaly detection via loitering, erratic movement and buffer capacity detection
+- Sensor fusion capable
 
 ---
 
