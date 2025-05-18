@@ -1,10 +1,26 @@
 broker: test.mosquitto.org
-port: 8884
+# broker: 192.168.0.164
+port: 1883
 
-topic: "shedsense/livefeed"
+to_publish:
+  - "ShedSense/server/initialise_lots"
+
+to_subscribe: 
+  - "ShedSense/node/frame"
+  - "ShedSense/node/status"
+  - "ShedSense/node/annotated_frame"
+  - "ShedSense/node/filtered_frame"
+  - "ShedSense/node/shutdown"
+  - "ShedSense/pi_zero/frame"
+  - "ShedSense/node/alert_upgrade"
+
+  
 
 ca_cert: C:\Users\tanji\OneDrive\Cambridge\2\Project\MQTT_certs\mosquitto.org.crt
 certfile: C:\Users\tanji\OneDrive\Cambridge\2\Project\MQTT_certs\client.crt
 keyfile: C:\Users\tanji\OneDrive\Cambridge\2\Project\MQTT_certs\client.key
+
+username: server
+password: C@mbr1dge
 
 # payload: {img, timestamp}

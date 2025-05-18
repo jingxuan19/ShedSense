@@ -1,0 +1,19 @@
+broker: test.mosquitto.org
+# port: 8884
+port: 1883
+
+to_publish: 
+  - "ShedSense/pi_zero/frame"
+  # - "ShedSense/pi_zero/shutdown"
+
+to_subscribe:
+
+# ca_cert: /home/shedsense1/Desktop/certs/mosquitto.org.crt
+# cert_file: /home/shedsense1/Desktop/certs/client.crt
+# key: /home/shedsense1/Desktop/certs/client.key
+# payload: {img, timestamp}
+
+# publisher topics
+# ShedSense/node/frame
+# ShedSense/node/status
+# ShedSense/node/alert 
