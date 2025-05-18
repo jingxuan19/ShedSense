@@ -26,9 +26,10 @@ pip install -r requirements.txt
 ---
 
 # Usage
-- from the node directory
-python src/node_main.py
-- from the pi_zero directory
-python src/main.py
-- from the server directory
-python src/main.py
+from the node directory
+- python src/node_main.py
+from the pi_zero directory
+- python src/main.py
+from the server directory
+- python src/main.py
+
