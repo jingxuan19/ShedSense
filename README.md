@@ -7,7 +7,7 @@ suspected anomalous activities. The implemented sensors are to be deployed live 
 real-world data and scenarios.
 
 
-![example image](https://github.com/jingxuan19/ShedSense/main/examples/example_img.png)
+![example image](https://github.com/jingxuan19/ShedSense/blob/main/examples/example_img.png)
 
 ---
 
