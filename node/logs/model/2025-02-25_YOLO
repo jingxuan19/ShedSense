@@ -1,3 +1,0 @@
-01:47:07.525894 Detected object person with confidence 0.30984383821487427 at tensor([  0.0000, 396.6001,   0.0000, 396.6001])
-01:47:23.391321 Detected object person with confidence 0.30984383821487427 at tensor([  0.0000,   0.0000, 198.3000, 396.6001])
-01:47:24.362376 Detected object person with confidence 0.30984383821487427 at tensor([  0.0000, 396.6001,   0.0000, 396.6001])

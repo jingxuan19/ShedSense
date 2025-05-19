@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-drawing = False # true if mouse is pressed
+drawing = False
 is_occupied = False
 ix,iy = -1,-1
 
@@ -12,7 +12,6 @@ def is_inside_rect(x, y, pts):
                 return i
     return None
 
-# mouse callback function
 def mouse_callback(event,x,y,flags,param):
     global ix,iy,drawing, mask, mask_uncomitted, color
 

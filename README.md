@@ -7,18 +7,32 @@ suspected anomalous activities. The implemented sensors are to be deployed live 
 real-world data and scenarios.
 
 
-![example image](https://github.com/jingxuan19/ShedSense/main/examples/example_img.png)
+![example image](https://github.com/jingxuan19/ShedSense/blob/main/examples/example_img.png)
+
+Examples of visualisations are shown in the examples directory.
 
 ---
 
-## Features
+# Features
 
 - Temporal entry/exit detection for determining occupancy
 - Bike lot assignment through static object detection 
 - Anomaly detection via loitering, erratic movement and buffer capacity detection
+- Visualisations of bike shed displayed on server
 - Sensor fusion capable
 
 ---
 
 # Install dependencies
 pip install -r requirements.txt
+
+---
+
+# Usage
+## from the node directory
+python src/node_main.py
+## from the pi_zero directory
+python src/main.py
+## from the server directory
+python src/main.py
+
