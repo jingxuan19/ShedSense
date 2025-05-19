@@ -1,7 +1,0 @@
-16:03:06.342822 Detected object person with confidence 0.3310084044933319 at tensor([   8.4222,  169.5699, 1280.0000,  707.9597])
-16:03:08.744457 Detected object person with confidence 0.7315890789031982 at tensor([  2.7711,   4.7015, 655.1361, 710.0405])
-16:03:12.214544 Detected object person with confidence 0.468360036611557 at tensor([ 712.2841,  240.5612, 1279.1786,  705.1482])
-16:03:20.349253 Detected object person with confidence 0.28202152252197266 at tensor([3.7628e-01, 1.3212e+01, 1.1769e+02, 6.3401e+02])
-16:03:20.351264 Detected object person with confidence 0.2784886956214905 at tensor([  1.9052,  11.6778, 387.4142, 709.4557])
-16:03:21.482879 Detected object person with confidence 0.2591469883918762 at tensor([3.9642e-01, 2.5079e+01, 1.0130e+02, 5.8556e+02])
-16:03:32.851774 Detected object person with confidence 0.2601265013217926 at tensor([  1.9479,   6.9275, 602.1520, 705.4315])
